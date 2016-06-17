@@ -18,11 +18,13 @@ from django.contrib import admin
 # from views import *
 from django.conf.urls import patterns, url
 
+from views.view_trainer import jsonp, index
+
+
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^jsonp$', jsonp),
+    url(r'^$', index),
 ]
 
-urlpatterns += patterns('uperform.views',
-                        url(r'^jsonp$', 'jsonp'),
-                        url(r'^index$', 'index'),
-                        )
+
