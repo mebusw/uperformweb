@@ -11,7 +11,7 @@
 }
 
 .header {
-	background-color: #3333BB;
+	background-color: black;
 	color: white;
 }
 
@@ -22,3 +22,13 @@
 .navbar-default .navbar-nav>li>a {
 	color: white;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; // remove the gap so it doesn't close
+    color: #FF8200;
+ }
+
+ .dropdown a:hover {
+    color: #FF8200;
+ }
