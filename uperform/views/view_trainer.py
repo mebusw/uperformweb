@@ -23,5 +23,5 @@ def jsonp(request):
 
 def index(request):
     return render_to_response('uperform/index.html',
-                              {},
+                              {'coaches': ['Vernon','Bill Li','Ethan','Jacky Shen','Stephen','Jack Hou']},
                               context_instance=RequestContext(request))

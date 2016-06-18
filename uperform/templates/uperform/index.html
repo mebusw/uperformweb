@@ -11,14 +11,17 @@
         <script src="{% static 'js/vue.min.js' %}"></script>
     </head>
     <body>
-        <div class="container-fluid">
-        <div style="min-height:60px;margin-left:30px;">
-            <!-- <img src="{% static 'media/uperform-logo.png' %}"> -->
-            <h1>UPerform</h1>
-        </div>
-        </div>
-        <nav class="navbar navbar-default header">
+        <!-- Header and nav bar -->
+        <div class="container">
             <div class="container-fluid">
+                <div style="min-height:60px;">
+                    <!-- <img src="{% static 'media/uperform-logo.png' %}"> -->
+                    <h1><span style="color:blue">UP</span><span style="color:black">er</span><span style="color:blue">f</span><span style="color:black">orm</span></h1>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-default header" style="border-left-width: 0px;border-right-width: 0px;">
+            <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -53,32 +56,208 @@
                     </ul>
                     </div><!-- /.navbar-collapse -->
                     </div><!-- /.container-fluid -->
-                </nav>
-                
-                <div class="container main">
-                    <div class="container-fluid">
-                     
-                        <div class="row">
-                           <div class="page-header">
-                            <h1 style="font-style: normal;font-weight: normal;">Catalyze your Agile Transformation</h1>
-                            <h4 style="color:#FF8200;font-style: normal;font-weight: normal;">Create ability to response to change and focus on delivering customer value</h4>
-                        </div>                        
-                        <div class="row">
-                        <div class="col-md-4">近期公开课</div>
-                        <div class="col-md-8">为什么选择我们</div>
-                    </div>
-                    </div>
-                </div>
-                
-            </div>
-            <div class="footer">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-md-4">合作伙伴</div>
-                        <div class="col-md-8">备案信息</div>
-                    </div>
-                </div>
-                
-            </div>
-        </body>
-    </html>
+                    </nav><!-- / Header and nav bar -->
+                    <!-- Body: Topic -->
+                    <div class="page-row-topic">
+                        <div class="container main">
+                            <div class="container-fluid">
+                                <div class="row">
+                                    <div class="page-header">
+                                        <h1 style="font-style: normal;font-weight: normal;">Catalyze your Agile Transformation</h1>
+                                        <h4 style="color:#FF8200;font-style: normal;font-weight: normal;font-family: "Raleway", sans-serif;">Create ability to response to change and focus on delivering customer value </h4>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-6">
+                                        <img src="https://www.scrumalliance.org/scrum/media/ScrumAllianceMedia/Files%20and%20PDFs/Homepage/expert-perspectives.jpg" class="img-responsive center-block" alt="Responsive image">
+                                    </div>
+                                    <div class="col-sm-12 col-md-6">
+                                        <h2 style="font-style: normal;font-weight: normal;">让蜕变发生</h2>
+                                        <h4 style="color:#FF8200;font-style: normal;font-weight: normal;">建立响应变化和交付客户价值的能力</h4>
+                                        <button type="button" class="btn btn-primary btn-lg">进一步了解</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        </div><!-- / Body: Topic -->
+                        <!-- Body: Recents -->
+                        <div class="page-row-light">
+                            <div class="container main">
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-12">
+                                        <h2 class="text-center">近期公开课计划</h2>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-12 col-md-4">
+                                        <div class="panel panel-success">
+                                            <div class="panel-heading">
+                                                <h3 class="panel-title">Scrum Master 中文认证 (PMI ACP)</h3>
+                                            </div>
+                                            <div class="panel-body">
+                                                <p class="">2016年6月17-18 北京</p>
+                                                <p class="">讲师：Vernon Stinebaker 史文林</p>
+                                                <p class="">地点：北京，场地待定</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-12 col-md-4">
+                                        <div class="panel panel-success">
+                                            <div class="panel-heading">
+                                                <h3 class="panel-title">Scrum Master 中文认证 (PMI ACP)</h3>
+                                            </div>
+                                            <div class="panel-body">
+                                                <p class="">2016年6月17-18 北京</p>
+                                                <p class="">讲师：Vernon Stinebaker 史文林</p>
+                                                <p class="">地点：北京，场地待定</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div><!-- / Body: Recents -->
+                                <!-- Body: Services -->
+                                <div class="page-row-white">
+                                    <div class="container">
+                                        <div class="container-fluid main main-services">
+                                            <div class="row">
+                                                <div class="col-sm-12 col-md-4">
+                                                    <dl>
+                                                        <dt><h3>Scrum国际认证课程</h3></dt>
+                                                        <dd><a href="">Certified Scrum Master</a></dd>
+                                                        <dd>Certified Scrum Product Owner</dd>
+                                                        <dd>Certified Scrum Developer</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="col-sm-12 col-md-4">
+                                                    <dl>
+                                                        <dt><h3>Scrum学分课与企业内训</h3></dt>
+                                                        <dd>Certified Scrum Master</dd>
+                                                        <dd>Certified Scrum Product Owner</dd>
+                                                        <dd>Certified Scrum Developer</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="col-sm-12 col-md-4">
+                                                    <dl>
+                                                        <dt><h3>敏捷教练与咨询服务</h3></dt>
+                                                        <dd>Certified Scrum Master</dd>
+                                                        <dd>Certified Scrum Product Owner</dd>
+                                                        <dd>Certified Scrum Developer</dd>
+                                                    </dl>
+                                                </div>
+                                                <div class="col-sm-6 col-md-4">
+                                                    <img src="https://www.scrumalliance.org/assets/img/global/logo.png">
+                                                </div>
+                                                <p></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div><!-- / Body: Services -->
+                                    <!-- Body: Coaches -->
+                                    <div style="background:grey;">
+                                        <div class="container">
+                                            <div class="container-fluid">
+                                                <div class="row">
+                                                    <div class="col-sm-12 col-md-12 lead" style="color:white;font-style: normal;font-weight: normal;font-size: 30px;font-family: Arial, sans-serif;">
+                                                        <p class="text-center">机构核心敏捷顾问成员 <br><small> (我们长期物色对敏捷充满激情与信念的顾问，有志者请与我们联系）</small></p>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    {% for coach in coaches %}
+                                                        <div class="col-sm-6 col-md-3">
+                                                            <div class="thumbnail">
+                                                                <img src="http://www.scrumchina.com/wp-content/uploads/2011/08/Vernon-150-170.jpg" alt="Avatar">
+                                                                <div class="caption">
+                                                                    <h3>{{ coach }}</h3>
+                                                                    <p>...</p>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    {% endfor %}
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div><!-- / Body: Coaches -->
+                                        
+                                        <!-- Body: Discover -->
+                                        <div class="page-row-white">
+                                            <div class="container main">
+                                                <div class="container-fluid">
+                                                    <div class="row">
+                                                        <h2 class="text-center">定制你的敏捷转型计划</h2>
+                                                        <p></p>
+                                                        <br>
+                                                    </div>
+                                                    <div class="row">
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <img src="https://www.scrumalliance.org/scrum/media/ScrumAllianceMedia/Files%20and%20PDFs/Homepage/Scrum%20Question%20Panels/icon-why-scrum.png?width=128&height=128&ext=.png" class="img-responsive center-block" alt="Responsive image">
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6">
+                                                            <p>好的培训常常是基础，但敏捷之路并不平坦，很多组织面对各个层面／方面的各种挑战，也期望尽早把团队的绩效作进一步提升，优秀敏捷教练的帮助会是多快好省的选择。
+                                                            </p>
+                                                            <p>优普丰敏捷教练服务的宗旨是当外部教练离开团队的时候，客户团队及内部教练本身能真正具备有效应用敏捷思想和技能，并持续改进的能力。</p>
+                                                            <p>
+                                                                <button type="button" class="btn btn-primary btn-lg center-block">进一步了解</button>
+                                                            </p>
+                                                            
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <!-- / Body: Discover -->
+                                        
+                                        <!-- Footer -->
+                                        <div class="page-row-dark">
+                                            <div class="container">
+                                                <div class="container-fluid footer">
+                                                    <div class="row">
+                                                        <div class="col-sm-12 col-md-6" id="blogs">
+                                                            <h3>最新博客</h3>
+                                                            <dl class="dl-horizontal">
+                                                                <dt><a href="#">
+                                                                    <img class="media-object" src="http://www.scrumchina.com/wp-content/uploads/2011/05/20091015122952495.gif" alt="...">
+                                                                </a></dt>
+                                                                <dd><span class="media-heading">CSP申请究极指南</span>
+                                                                2016-6-17</dd>
+                                                            </dl>
+                                                            <dl class="dl-horizontal">
+                                                                <dt><a href="#">
+                                                                    <img class="media-object" src="http://www.scrumchina.com/wp-content/uploads/2011/05/20091015122952495.gif" alt="...">
+                                                                </a></dt>
+                                                                <dd><span class="media-heading">CSP申请究极指南</span>
+                                                                2016-6-17</dd>
+                                                            </dl>
+                                                            
+                                                        </div>
+                                                        <div class="col-sm-12 col-md-6" id="contact-us">
+                                                            <h3>联系我们</h3>
+                                                            
+                                                            <address>
+                                                                <abbr title="Phone"><span class="glyphicon glyphicon glyphicon-earphone" aria-hidden="true"></span>电话:</abbr> (86) 021-63809913
+                                                            </address>
+                                                            <address>
+                                                                <strong>上海优普丰企业管理有限公司</strong><br>
+                                                                长宁区汇川路99号新时空国际商务广场1502室(200003)<br>
+                                                                中国 上海<br>
+                                                                <strong>微信公众号</strong><br>
+                                                                <a href="mailto:#">Service@Uperform.cn</a>
+                                                            </address>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            </div><!-- / Footer -->
+                                            
+                                            <!-- Footer2 -->
+                                            <div class="page-row-black">
+                                                <div class="container">
+                                                    <div class="container-fluid">
+                                                        <div class="row">
+                                                            备案信息
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                </div><!-- / Footer2 -->
+                                            </body>
+                                        </html>

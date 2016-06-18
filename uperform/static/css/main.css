@@ -1,13 +1,10 @@
-.full {
-	padding: 0px;
-}
-
 
 .footer {
 	padding: 0px;
 	margin: 0px;
-	background-color: grey;
+	/*background-color: #84827f;*/
 	min-height: 300px;
+	color: white;
 }
 
 .header {
@@ -16,9 +13,29 @@
 }
 
 .main {
-	min-height: 400px;	
+	min-height: 350px;
 }
 
+.page-row-topic {
+	background: white;
+	margin-bottom: 30px;
+}
+.page-row-white {
+	background: white;	
+}
+.page-row-grey {
+	background: grey;	
+}
+
+.page-row-black {
+	background: black;	
+}
+.page-row-dark {
+	background: #35363c;	
+}
+.page-row-light {
+	background: #F1F2F2;	
+}
 .navbar-default .navbar-nav>li>a {
 	color: white;
 }
@@ -27,8 +44,19 @@
     display: block;
     margin-top: 0; // remove the gap so it doesn't close
     color: #FF8200;
- }
+}
 
- .dropdown a:hover {
+
+
+.navbar-default .navbar-nav>li>a:active {
     color: #FF8200;
- }
+}
+.navbar-default .navbar-nav>li>a:link {
+    color: #FF8200;
+}
+.navbar-default .navbar-nav>li>a:visited {
+    color: white;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #FF8200;
+}
