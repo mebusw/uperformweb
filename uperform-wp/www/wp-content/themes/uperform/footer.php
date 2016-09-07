@@ -32,7 +32,7 @@
 				<p class="sub">我们是</p>
 				<h3>优普丰</h3>
 				<p class="address">上海办公室: <br/>上海长宁区汇川路99号新时空国际商务广场1502室 <br/>
-Tel:  (021) 63809913</p>
+Tel: (021) 63809913</p>
 				<p class="address">北京办公室: <br/>建国门外大街甲6号中环世贸中心C座29楼<br/>
 Tel: (021) 63809913</p>
 				<p class="email"><a href="mailto:service@scrumchina.com">Service@ScrumChina.com</a></p>

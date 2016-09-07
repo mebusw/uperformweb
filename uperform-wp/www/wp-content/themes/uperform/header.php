@@ -35,6 +35,7 @@ $cat_id= get_blog_cat_id();
 		echo ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) );
 
 	?></title>
+<link href="http://cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -61,7 +62,6 @@ $cat_id= get_blog_cat_id();
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no">
 <link href="<?php bloginfo('template_url'); ?>/mobile.css" type="text/css" rel="stylesheet" />
 <!--[if lt IE 9]><script src="<?php bloginfo('template_url'); ?>/scripts/html5.js"></script><![endif]-->
-<link href="<?php bloginfo('template_url'); ?>/scripts/bootstrap/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
 <?php }?>
 </head>
 <body <?php body_class(); ?>>
