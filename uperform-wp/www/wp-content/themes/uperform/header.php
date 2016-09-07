@@ -124,7 +124,7 @@ $cat_id= get_blog_cat_id();
 		</div>
 	</div> <!-- #nav -->
 
-	<div id="main">
+	<div id="main" class="container">
 <?php if($cat_id==BLOG_CAT_ID || is_tag() || is_search()){?>
 <script type="text/javascript">
 jQuery(document).ready(function(){
