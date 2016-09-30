@@ -1,2 +1,2 @@
 from view_trainer import *
-from view_names import *
+from view_specialname import *

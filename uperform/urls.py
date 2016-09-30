@@ -18,9 +18,7 @@ from django.contrib import admin
 # from views import *
 from django.conf.urls import patterns, url
 
-from views.view_trainer import *
-from views.view_specialname import *
-
+from views import *
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
