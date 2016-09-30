@@ -126,5 +126,36 @@ $cat_id= get_blog_cat_id();
 
 	<div id="main" class="container">
 <?php if($cat_id==BLOG_CAT_ID || is_tag() || is_search()){?>
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery("#nav i").click(function(){
+		jQuery("#nav .first-nav").toggle();
+	})
+	if(jQuery(window).width()<1200){
+		jQuery("#searchsubmit").val("");
+		jQuery("#s").val("Search");
+		
+		jQuery("#searchsubmit").click(function(){
+			jQuery("#nav-search").addClass("show");
+			if(jQuery("#s").val()=="" || jQuery("#s").val()=="Search"){
+				return false;
+			}
+		})
+		
+		jQuery("#s").click(function(){
+			if(jQuery(this).val()=="Search"){
+				jQuery(this).val("");
+			}
+		})
+		jQuery("#s").blur(function(){
+			if(jQuery(this).val()=="" || jQuery(this).val()=="Search"){
+				jQuery("#nav-search").removeClass("show");
+				jQuery("#s").val("Search");
+			}
+		})
+	}
 
+
+})
+</script>
 <?php }?>

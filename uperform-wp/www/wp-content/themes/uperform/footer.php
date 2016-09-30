@@ -82,37 +82,7 @@ Tel: (021) 63809913</p>
 	 */
 
 	wp_footer();
-?>
-<script type="text/javascript">
-jQuery(document).ready(function(){
-	jQuery("#nav i").click(function(){
-		jQuery("#nav .first-nav").toggle();
-	})
-	if(jQuery(window).width()<1200){
-		jQuery("#searchsubmit").val("");
-		jQuery("#s").val("Search");
-		
-		jQuery("#searchsubmit").click(function(){
-			jQuery("#nav-search").addClass("show");
-			if(jQuery("#s").val()=="" || jQuery("#s").val()=="Search"){
-				return false;
-			}
-		})
-		
-		jQuery("#s").click(function(){
-			if(jQuery(this).val()=="Search"){
-				jQuery(this).val("");
-			}
-		})
-		jQuery("#s").blur(function(){
-			if(jQuery(this).val()=="" || jQuery(this).val()=="Search"){
-				jQuery("#nav-search").removeClass("show");
-				jQuery("#s").val("Search");
-			}
-		})
-	}
-})
-</script>
+?><script type="text/javascript">// alert(jQuery(window).width());</script>
 
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260239618'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260239618%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
 </body>
