@@ -63,6 +63,21 @@ $cat_id= get_blog_cat_id();
 <link href="<?php bloginfo('template_url'); ?>/mobile.css" type="text/css" rel="stylesheet" />
 <!--[if lt IE 9]><script src="<?php bloginfo('template_url'); ?>/scripts/html5.js"></script><![endif]-->
 <?php }?>
+  <script type='text/javascript'>
+      var _vds = _vds || [];
+      window._vds = _vds;
+      (function(){
+        _vds.push(['setAccountId', '90cc5264e90b7764']);
+        (function() {
+          var vds = document.createElement('script');
+          vds.type='text/javascript';
+          vds.async = true;
+          vds.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'dn-growing.qbox.me/vds.js';
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(vds, s);
+        })();
+      })();
+  </script>
 </head>
 <body <?php body_class(); ?>>
 
