@@ -63,7 +63,12 @@ $cat_id= get_blog_cat_id();
 <link href="<?php bloginfo('template_url'); ?>/mobile.css" type="text/css" rel="stylesheet" />
 <!--[if lt IE 9]><script src="<?php bloginfo('template_url'); ?>/scripts/html5.js"></script><![endif]-->
 <?php }?>
-  <script type='text/javascript'>
+
+<script type="text/javascript">
+	document.write('<script src="\/\/assets.kf5.com\/supportbox\/main.js?' + (new Date).getDay() + '" id="kf5-provide-supportBox" kf5-domain="jackyshen.kf5.com" charset="utf-8"><\/script>');
+</script>
+
+<script type='text/javascript'>
       var _vds = _vds || [];
       window._vds = _vds;
       (function(){
@@ -77,7 +82,7 @@ $cat_id= get_blog_cat_id();
           s.parentNode.insertBefore(vds, s);
         })();
       })();
-  </script>
+</script>
 </head>
 <body <?php body_class(); ?>>
 
