@@ -95,12 +95,12 @@ $cat_id= get_blog_cat_id();
 					<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
 			</span>
 			</<?php echo $heading_tag; ?>>
-			<!-- <div class="top-links right-col">
+			<div class="top-links right-col">
 				<a href="<?php echo site_url('');?>/en">English version</a>
 				<a href="<?php echo site_url('');?>/contact">联系我们</a>
 				<a href="<?php echo site_url('');?>/career">招聘信息</a>
 				<a href="<?php echo site_url('');?>/faq">FAQ</a>
-			</div> -->
+			</div>
 			<div class="clear"></div>
 		</div>
 	</div><!-- #header -->
