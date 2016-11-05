@@ -87,7 +87,7 @@ $cat_id= get_blog_cat_id();
 <body <?php body_class(); ?>>
 
 <div>
-	<div id="header" class="wrapper">
+	<div id="header" class="container">
 		<div class="branding">
 			<?php $heading_tag = ( is_home() || is_front_page() ) ? 'h1' : 'div'; ?>
 			<<?php echo $heading_tag; ?> class="logo left-col">
@@ -107,7 +107,7 @@ $cat_id= get_blog_cat_id();
 
  	<div id="nav" role="navigation">
 		<i></i>
-		<div class="wrapper">
+		<div class="container">
 			<div class="menu">
 				<ul class="first-nav">
 					<li><a href="<?php echo site_url('');?>/">首页</a></li>

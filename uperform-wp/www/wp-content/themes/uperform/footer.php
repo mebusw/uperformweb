@@ -13,7 +13,7 @@
 	</div><!-- #main -->
 
 	<div id="footer" role="contentinfo">
-		<div class="wrapper">
+		<div class="container">
 			<div class="footer-section our-partner left-col">
 				<p class="sub">我们的</p>
 				<h3>合作机构</h3>
