@@ -29,30 +29,30 @@ get_header(); ?>
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active">
-              <img src="/wp-content/themes/uperform/images/content_1.jpg" alt="...">
+              <a href="<?php echo site_url('');?>/about"><img src="/wp-content/themes/uperform/images/content_1.jpg" alt="..."></a>
               <div class="carousel-caption" style="width:30%;left:60%;right:10%;">
-                <h3 class="text-right">您的敏捷及项目绩效伙伴</h3>
+                <h2 class="text-right" style="color:#333;">您的敏捷及项目绩效伙伴</h3>
                 <p class="text-right">开放思维 乐活乐工 勇敢专注 敏捷共赢</p>
               </div>
             </div>
             <div class="item">
-              <img src="/wp-content/themes/uperform/images/content_2.jpg" alt="...">
+              <a href="<?php echo site_url('');?>/category/courses/class"><img src="/wp-content/themes/uperform/images/content_2.jpg" alt="..."></a>
               <div class="carousel-caption" style="width:30%;left:60%;right:10%;">
-                <h3 class="text-right">Scrum及敏捷课程</h3>
+                <h2 class="text-right style="color:#333;"">Scrum及敏捷课程</h3>
                 <p class="text-right">我们为那些想改善软件开发和系统项目成果的团队、组织与个人提供最为全面的Scrum及敏捷相关培训，包括公开班及内训，认证及非认证，管理类及技术类。</p>
               </div>
             </div>            
             <div class="item">
-              <img src="/wp-content/themes/uperform/images/content_3.jpg" alt="...">
+              <a href="<?php echo site_url('');?>/consulting"><img src="/wp-content/themes/uperform/images/content_3.jpg" alt="..."></a>
               <div class="carousel-caption" style="width:30%;left:60%;right:10%;">
-                <h3 class="text-right">敏捷教练及咨询</h3>
+                <h2 class="text-right style="color:#333;"">敏捷教练及咨询</h3>
                 <p class="text-right">很多组织和团队的敏捷之路面对各个层面／方面的各种挑战，期望尽早把团队的绩效作进一步提升，优秀敏捷教练和转型顾问的帮助会是多快好省的选择。</p>
               </div>
             </div>            
             <div class="item">
-              <img src="/wp-content/themes/uperform/images/content_4.jpg" alt="...">
+              <a href="<?php echo site_url('');?>/team"><img src="/wp-content/themes/uperform/images/content_4.jpg" alt="..."></a>
               <div class="carousel-caption" style="width:30%;left:60%;right:10%;">
-                <h3 class="text-right">卓越团队</h3>
+                <h2 class="text-right" style="color:#333;">卓越团队</h3>
                 <p class="text-right">敏捷的核心是人：强大的组合，高信誉度的服务。机构的核心敏捷顾问团队具有多年海内外软件、IT、各类型项目及企业管理方方面面的经验。获得许多知名客户的一致认可和推荐。</p>
               </div>
             </div>
