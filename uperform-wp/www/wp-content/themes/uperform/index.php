@@ -17,7 +17,7 @@ get_header(); ?>
         
 
         
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="left:5%;right:5%;">
           <!-- Indicators -->
           <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -28,31 +28,31 @@ get_header(); ?>
 
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <a href="<?php echo site_url('');?>/about"><img src="/wp-content/themes/uperform/images/content_1.jpg" alt="..."></a>
+            <div class="item active" style="background-color: lightblue;">
+              <a href="<?php echo site_url('');?>/about"><img src="/wp-content/themes/uperform/images/content_1.jpg" width="60%" height="244px"></a>
               <div class="carousel-caption" style="width:30%;left:60%;right:10%;">
-                <h2 class="text-right" style="color:#333;">您的敏捷及项目绩效伙伴</h3>
+                <h2 class="text-right">您的敏捷及项目绩效伙伴</h3>
                 <p class="text-right">开放思维 乐活乐工 勇敢专注 敏捷共赢</p>
               </div>
             </div>
-            <div class="item">
-              <a href="<?php echo site_url('');?>/category/courses/class"><img src="/wp-content/themes/uperform/images/content_2.jpg" alt="..."></a>
+            <div class="item" style="background-color: lightblue;">
+              <a href="<?php echo site_url('');?>/category/courses/class"><img src="/wp-content/themes/uperform/images/content_2.jpg" width="60%" height="244px"></a>
               <div class="carousel-caption" style="width:30%;left:60%;right:10%;">
-                <h2 class="text-right style="color:#333;"">Scrum及敏捷课程</h3>
+                <h2 class="text-right">Scrum及敏捷课程</h3>
                 <p class="text-right">我们为那些想改善软件开发和系统项目成果的团队、组织与个人提供最为全面的Scrum及敏捷相关培训，包括公开班及内训，认证及非认证，管理类及技术类。</p>
               </div>
             </div>            
-            <div class="item">
-              <a href="<?php echo site_url('');?>/consulting"><img src="/wp-content/themes/uperform/images/content_3.jpg" alt="..."></a>
+            <div class="item" style="background-color: lightblue;">
+              <a href="<?php echo site_url('');?>/consulting"><img src="/wp-content/themes/uperform/images/content_3.jpg" width="60%" height="244px"></a>
               <div class="carousel-caption" style="width:30%;left:60%;right:10%;">
-                <h2 class="text-right style="color:#333;"">敏捷教练及咨询</h3>
+                <h2 class="text-right">敏捷教练及咨询</h3>
                 <p class="text-right">很多组织和团队的敏捷之路面对各个层面／方面的各种挑战，期望尽早把团队的绩效作进一步提升，优秀敏捷教练和转型顾问的帮助会是多快好省的选择。</p>
               </div>
             </div>            
-            <div class="item">
-              <a href="<?php echo site_url('');?>/team"><img src="/wp-content/themes/uperform/images/content_4.jpg" alt="..."></a>
+            <div class="item" style="background-color: lightblue;">
+              <a href="<?php echo site_url('');?>/team"><img src="/wp-content/themes/uperform/images/content_4.jpg" width="60%" height="244px"></a>
               <div class="carousel-caption" style="width:30%;left:60%;right:10%;">
-                <h2 class="text-right" style="color:#333;">卓越团队</h3>
+                <h2 class="text-right">卓越团队</h3>
                 <p class="text-right">敏捷的核心是人：强大的组合，高信誉度的服务。机构的核心敏捷顾问团队具有多年海内外软件、IT、各类型项目及企业管理方方面面的经验。获得许多知名客户的一致认可和推荐。</p>
               </div>
             </div>
@@ -110,8 +110,8 @@ get_header(); ?>
                     <div class="row">
                         <h2>为什么选择优普丰</h3>
                         <div class="intro">
-                            <p class="intro-section">您在寻找Scrum培训认证，敏捷培训，敏捷教练指导服务吗？ UPerform优普丰顾问团队正是您最值得信任的。</p>
-                            <p class="intro-section">我们为想改善软件开发和系统项目的团队和组织提供敏捷培训、教练指导和咨询服务，实现昂贵投入的项目交付成果价值最大化。</p>
+                            <p class="intro-section">您在寻找Scrum培训认证，敏捷培训，敏捷教练指导服务吗？ <br>UPerform优普丰顾问团队正是您最值得信任的。</p>
+                            <p class="intro-section">我们为想改善软件开发和系统项目的团队和组织提供敏捷培训、教练指导和咨询服务，<br>实现昂贵投入的项目交付成果价值最大化。</p>
                         </div>
                         <div class="advantage">
                             <ul>
@@ -120,7 +120,7 @@ get_header(); ?>
                                 <li>拥有最具资历的Scrum敏捷顾问团队 </li>
                                 <li>能用流利普通话或者纯正美式英语交付</li>
                                 <li>每位敏捷管理顾问平均IT行业经验超过20年，均从开发人员做起到总监或以上职能</li>                 
-                                <li>在中国Scrum敏捷领域深耕6年，获得众多知名客户认可（<a href="http://www.scrumchina.com/clients">请点击我们的重要客户清单</a>）</li>
+                                <li>在中国Scrum敏捷领域深耕8年，获得众多知名客户认可（<a href="http://www.scrumchina.com/clients">请点击我们的重要客户清单</a>）</li>
                                 <div class="clear"></div>
                             </ul>
                         </div>

@@ -31,7 +31,7 @@
 			<div class="footer-section contact-info left-col">
 				<p class="sub">我们是</p>
 				<h3>优普丰</h3>
-				<p class="address">上海办公室: <br/>上海市申长路818号虹桥天地1号楼7楼裸心社 <br/>
+				<p class="address">上海办公室: <br/>上海市申长路818号虹桥天地1号楼7楼❤️ 裸心社 <br/>
 Tel: (021) 63809913</p>
 				<p class="address">北京办公室: <br/>建国门外大街甲6号中环世贸中心C座29楼<br/>
 Tel: (021) 63809913</p>
@@ -44,7 +44,6 @@ Tel: (021) 63809913</p>
                                 <p class="footer-social">微信公众号: UPerform优普丰 </p>
                                 <p class="footer-social"> <img alt="UPerform优普丰" width="100" title="UPerform优普丰" src="http://www.scrumchina.com/wp-content/uploads/2014/03/upeform_wechat.png"/></p>
                                 <p class="footer-social">新浪微博: <a href="http://weibo.com/uperform" class="social-logo">@UPerform_优普丰</a></p>
-				<p class="footer-social">新浪微博: <a href="http://weibo.com/scrumchina" class="social-logo">@李国彪</a></p>
 				<p class="footer-social">Twitter: <a href="http://twitter.com/scrumchina" class="social-logo">@ScrumChina</a></p>
 
 <p style="margin-top:30px;"> <a target="_blank" href='http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=20120217095149104'><img src='http://www.scrumchina.com/wp-content/uploads/2012/04/sh-liangzhao.gif' border=0></a> </p>
