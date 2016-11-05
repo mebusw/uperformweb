@@ -55,7 +55,7 @@ Tel: (021) 63809913</p>
 		</div><!-- .wrapper -->
 	</div><!-- #footer -->
 	<div id="copyright">
-		<div class="wrapper">
+		<div class="container">
 			<div id="site-generator" class="left-col">
 				<p>
 					<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
@@ -63,7 +63,7 @@ Tel: (021) 63809913</p>
 					</a>
 				</p>
 			</div><!-- #site-generator -->
-			<div id="site-info" class="right-col">				<mobile>				<p><a href="mailto:service@scrumchina.com">Email:Service@ScrumChina.com</a> <span>Tel: (021) 63809913</span> <span>微信公众号: UPerform优普丰</span> </p></mobile>				<p style="">上海优普丰企业管理有限公司 2007-<?php echo date("Y");?> 版权所有 <span class="icp">沪ICP备08021483号</span></p> 
+			<div id="site-info" class="right-col ">				<mobile>				<p><a href="mailto:service@scrumchina.com">Email:Service@ScrumChina.com</a> <span>Tel: (021) 63809913</span> <span>微信公众号: UPerform优普丰</span> </p></mobile>				<p style="">上海优普丰企业管理有限公司 2007-<?php echo date("Y");?> 版权所有 <span class="icp">沪ICP备08021483号</span></p> 
 			</div><!-- #site-info -->
 			<div class="clear"></div>
 		</div><!-- .wrapper -->
