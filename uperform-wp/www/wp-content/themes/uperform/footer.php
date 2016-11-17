@@ -31,10 +31,10 @@
 			<div class="footer-section contact-info left-col">
 				<p class="sub">我们是</p>
 				<h3>优普丰</h3>
-				<p class="address">上海办公室: <br/>上海市申长路818号虹桥天地1号楼7楼❤️ 裸心社 <br/>
-Tel: (021) 63809913</p>
-				<p class="address">北京办公室: <br/>建国门外大街甲6号中环世贸中心C座29楼<br/>
-Tel: (021) 63809913</p>
+				<p class="address">上海办公室: <br/>上海市闵行区申长路818号虹桥天地1号楼7楼裸心社 <br/>
+Tel: 021-63809913（内训课程咨询）<br/>  Tel: 021-34753688（公开课咨询）</p>
+				<p class="address">北京办公室: <br/>建国门外大街甲6号中环世贸中心C座29楼
+</p>
 				<p class="email"><a href="mailto:service@scrumchina.com">Service@ScrumChina.com</a></p>
 			</div>
 			<div class="footer-section social-network right-col">
@@ -63,7 +63,7 @@ Tel: (021) 63809913</p>
 					</a>
 				</p>
 			</div><!-- #site-generator -->
-			<div id="site-info" class="right-col ">				<mobile>				<p><a href="mailto:service@scrumchina.com">Email:Service@ScrumChina.com</a> <span>Tel: (021) 63809913</span> <span>微信公众号: UPerform优普丰</span> </p></mobile>				<p style="">上海优普丰企业管理有限公司 2007-<?php echo date("Y");?> 版权所有 <span class="icp">沪ICP备08021483号</span></p> 
+			<div id="site-info" class="right-col ">				<mobile>				<p><a href="mailto:service@scrumchina.com">Email:Service@ScrumChina.com</a> <span>Tel: 021-63809913（内训课程咨询）</span> <span>Tel: 021-34753688（公开课咨询）</span> <span>微信公众号: UPerform优普丰</span> </p></mobile>				<p style="">上海优普丰企业管理有限公司 2007-<?php echo date("Y");?> 版权所有 <span class="icp">沪ICP备08021483号</span></p> 
 			</div><!-- #site-info -->
 			<div class="clear"></div>
 		</div><!-- .wrapper -->
