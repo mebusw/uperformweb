@@ -19,16 +19,23 @@ get_header(); ?>
         
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="max-width:960px;background-color: lightblue;">
           <!-- Indicators -->
-          <ol class="carousel-indicators">
+<!--           <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
             <li data-target="#carousel-example-generic" data-slide-to="1"></li>
             <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             <li data-target="#carousel-example-generic" data-slide-to="3"></li>
           </ol>
-
+ -->
           <!-- Wrapper for slides -->
           <div class="carousel-inner" role="listbox">
             <div class="item active" style="background-color: #50b2d5;">
+              <a href="<?php echo site_url('');?>/about"><img src="/wp-content/themes/uperform/images/vernon.jpg" width="100%"></a>
+              <div class="carousel-caption" style="">
+                <div class="text-left" style="font-size:36px;color:white;">让蜕变发生</div>
+                <div class="text-left" style="font-size:32px;color:white;">Catalyze Your Transformation!</div>
+              </div>
+            </div>
+<!--             <div class="item" style="background-color: #50b2d5;">
               <a href="<?php echo site_url('');?>/about"><img src="/wp-content/themes/uperform/images/content_1.jpg" width="50%" style="height:244px;"></a>
               <div class="carousel-caption" style="width:30%;left:60%;right:10%;max-height: 220px;">
                 <h2 class="text-right">您的敏捷及项目绩效伙伴</h3>
@@ -56,10 +63,10 @@ get_header(); ?>
                 <p class="text-right">敏捷的核心是人：强大的组合，高信誉度的服务。机构的核心敏捷顾问团队具有多年海内外软件、IT、各类型项目及企业管理方方面面的经验。获得许多知名客户的一致认可和推荐。</p>
               </div>
             </div>
-          </div>
+ -->          </div>
 
           <!-- Controls -->
-          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+<!--           <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
             <span class="sr-only">Previous</span>
           </a>
@@ -67,7 +74,7 @@ get_header(); ?>
             <span class="glyphicon glyphicon-chevron-right"></span>
             <span class="sr-only">Next</span>
           </a>
-        </div><!-- .carousel -->
+ -->        </div><!-- .carousel -->
 
         <div id="content" class="wrapper container">
             <div class="row">
@@ -110,17 +117,19 @@ get_header(); ?>
                     <div class="row">
                         <h2>为什么选择优普丰</h3>
                         <div class="intro">
-                            <p class="intro-section">您在寻找Scrum培训认证，敏捷培训，敏捷教练指导服务吗？ <br>UPerform优普丰顾问团队正是您最值得信任的。</p>
+                            <p class="intro-section">您在寻找Scrum培训认证，敏捷培训，敏捷教练指导服务吗？ <br>UPerform优普丰顾问团队正是您最值得信任的Scrum Alliane授权机构、</p>
                             <p class="intro-section">我们为想改善软件开发和系统项目的团队和组织提供敏捷培训、教练指导和咨询服务，<br>实现昂贵投入的项目交付成果价值最大化。</p>
                         </div>
                         <div class="advantage">
                             <ul>
-                                <li>中国地区首家Scrum联盟REP-注册教育提供商及国际敏捷联盟企业会员</li>
+                                <li>中国地区首家 <a href="http://www.scrumalliance.org">Scrum联盟</a>REP-注册教育提供商及国际敏捷联盟企业会员</li>
                                 <li>深刻理解传统与敏捷环境的异同，海内外丰富背景，准确把握文化差异</li>
-                                <li>拥有最具资历的Scrum敏捷顾问团队 </li>
+                                <li>拥有最具资历的Scrum<a href="/team">敏捷教练顾问团队</a></li>
                                 <li>能用流利普通话或者纯正美式英语交付</li>
                                 <li>每位敏捷管理顾问平均IT行业经验超过20年，均从开发人员做起到总监或以上职能</li>                 
-                                <li>在中国Scrum敏捷领域深耕8年，获得众多知名客户认可（<a href="http://www.scrumchina.com/clients">请点击我们的重要客户清单</a>）</li>
+                                <li>在中国Scrum敏捷领域深耕8年，获得众多知名客户认可（<a href="/clients">点击查看我们的重要客户清单</a>）</li>
+                                <li><img src="/wp-content/themes/uperform/images/SCR20146-Seals-Final-CST.png" width="80" height="80"></li>
+                                <li><img src="/wp-content/themes/uperform/images/SCR20146-Seals-Final-CTC.png" width="80" height="80"></li>
                                 <div class="clear"></div>
                             </ul>
                         </div>
@@ -160,7 +169,7 @@ get_header(); ?>
                     </div>
 
                     <div class="row">
-                        <h3>权威译作</h3>
+                        <h3>权威译作 <a href="/resources/translated">点击更多</a></h3>
                         <div class="books">
                             <p class="book-1"></p>
                             <p>

@@ -90,11 +90,9 @@ $cat_id= get_blog_cat_id();
 	<div id="header" class="container">
 		<div class="branding">
 			<?php $heading_tag = ( is_home() || is_front_page() ) ? 'h1' : 'div'; ?>
-			<<?php echo $heading_tag; ?> class="logo left-col">
-				<span>
-					<a href="<?php echo home_url( '/' ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-			</span>
-			</<?php echo $heading_tag; ?>>
+			<h1>
+				<a class="logo left-col" href="/" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
+			</h1>
 			<div class="top-links right-col">
 				<a href="<?php echo site_url('');?>/en">English</a>
 				<a href="#contactus">联系我们</a>
