@@ -14,6 +14,8 @@ $cat_id= get_blog_cat_id();
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
+<meta name="description" content="Scrum培训, 敏捷开发培训, Scrum认证, 中文敏捷认证, 敏捷项目管理培训, 敏捷教练, 敏捷咨询等服务。Scrum 联盟 China Agile-中国敏捷开发培训咨询教练领导品牌！ CSP CST CTC CEC REP">
+<meta name="keywords" content="Scrum培训, Scrum敏捷开发培训,Scrum培训,Scrum认证,Scrum Master,敏捷项目管理培训,敏捷教练,敏捷咨询教练 Agile DevOps Coaching XP Kanban SAFE LESS Spotify CSP CST CTC CEC REP">
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
@@ -103,7 +105,7 @@ $cat_id= get_blog_cat_id();
 		</div>
 	</div><!-- #header -->
 
- 	<div id="nav" role="navigation">
+ 	<nav id="nav" role="navigation">
 		<i></i>
 		<div class="container">
 			<div class="menu">
@@ -140,7 +142,7 @@ $cat_id= get_blog_cat_id();
 			<?php //get_sidebar('nav'); ?>
 			<div class="clear"></div>
 		</div>
-	</div> <!-- #nav -->
+	</nav> <!-- #nav -->
 
 	<div id="main" class="container">
 <?php if($cat_id==BLOG_CAT_ID || is_tag() || is_search()){?>
