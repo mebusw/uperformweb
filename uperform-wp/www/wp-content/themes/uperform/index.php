@@ -80,6 +80,7 @@ get_header(); ?>
             <div class="row">
                 <div class="course-list col-md-4">
                     <h2>近期敏捷课程公开班</h2>
+                    <p><a class="btn btn-warning" href="https://jinshuju.net/f/RBPJVI">我要报名</a></p>
                     <?php if (have_posts()) : ?>
       <?php $special_query = new WP_Query('category_name=special&showposts=8');
       while ($special_query->have_posts()) : $special_query->the_post();
@@ -124,7 +125,7 @@ get_header(); ?>
                             <ul>
                                 <li>中国地区首家 <a href="http://www.scrumalliance.org">Scrum联盟</a>REP-注册教育提供商及国际敏捷联盟企业会员</li>
                                 <li>深刻理解传统与敏捷环境的异同，海内外丰富背景，准确把握文化差异</li>
-                                <li>拥有最具资历的Scrum<a href="/team">敏捷教练顾问团队</a></li>
+                                <li>拥有最具资历的Scrum<a href="/team">敏捷教练顾问团队</a>，拥有3位CST和国内唯一CTC持有者</li>
                                 <li>能用流利普通话或者纯正美式英语交付</li>
                                 <li>每位敏捷管理顾问平均IT行业经验超过20年，均从开发人员做起到总监或以上职能</li>                 
                                 <li>在中国Scrum敏捷领域深耕8年，获得众多知名客户认可（<a href="/clients">点击查看我们的重要客户清单</a>）</li>

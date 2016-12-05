@@ -35,7 +35,7 @@ get_header(); ?>
 						<p>	我们自2007年开始在中国大陆地区专注于提供Scrum和敏捷方面的公开课，包括Scrum联盟认证和非认证课程。深受广大学员和500强企业的认可和关注。目前我们定期在北京、上海及各主要城市提供CSM、CSPO、CSD、TDD等核心应用课程，帮助培养敏捷团队服务式领导、创建伟大产品及项目的需求负责人、以及高绩效敏捷开发团队成员。 
 						</p>
 						<div>
-							<a class="btn btn-warning" href="https://jinshuju.net/f/RBPJVI">我要报名公开版</a>
+							<a class="btn btn-warning" href="https://jinshuju.net/f/RBPJVI">我要报名公开班</a>
 						</div>
 					</div>
 					<div class="course-list class-list">
