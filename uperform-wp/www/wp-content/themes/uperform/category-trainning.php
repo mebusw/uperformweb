@@ -33,6 +33,7 @@ get_header(); ?>
 				<div class="left-section left-col trainning">
 					<div class="course-list">
 						<h2>企业内部培训有下列主要课程（我们也乐意提供相关定制培训）:</h2>
+						<p><a class="btn btn-warning btn-lg" href="https://jinshuju.net/f/25k3bo"  target="_blank">我要定制内训和教练服务</a></p>
 						<?php
 						$category_description = category_description();
 						if ( ! empty( $category_description ) )
@@ -50,6 +51,7 @@ get_header(); ?>
 						<p>内训咨询及获取任一课程详细信息：</p>
 						<p class="tel">Tel: 021-63809913</p>
 						<p class="email">Email: <a href="mailto:Service@ScrumChina.com">Service@ScrumChina.com</a></p>
+						<p><a class="btn btn-warning btn-lg" href="https://jinshuju.net/f/25k3bo"  target="_blank">我要定制内训和教练服务</a></p>
 					</div>
 				</div>
 				<div class="right-col right-section course-list">

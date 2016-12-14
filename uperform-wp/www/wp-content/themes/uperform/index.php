@@ -80,7 +80,7 @@ get_header(); ?>
             <div class="row">
                 <div class="course-list col-md-4">
                     <h2>近期敏捷课程公开班</h2>
-                    <p><a class="btn btn-warning" href="https://jinshuju.net/f/RBPJVI">我要报名</a></p>
+                    <p><a class="btn btn-warning btn-lg" href="https://jinshuju.net/f/RBPJVI" target="_blank">我要报名公开班</a></p>
                     <?php if (have_posts()) : ?>
       <?php $special_query = new WP_Query('category_name=special&showposts=8');
       while ($special_query->have_posts()) : $special_query->the_post();
