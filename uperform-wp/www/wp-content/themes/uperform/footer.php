@@ -39,7 +39,7 @@
 				<p class="address">北京办公室: <br/>建国门外大街甲6号中环世贸中心C座29楼
 </p>
 			</div>
-			<div class="footer-section social-network right-col">
+			<div class="footer-section social-network left-col">
 				<p class="sub">我们爱</p>
 				<h3>社交网络</h3>
 				
@@ -77,14 +77,7 @@
 <script src="<?php bloginfo('template_url'); ?>/scripts/jquery.bxSlider.min.js" type="text/javascript"></script>
 <script src="<?php bloginfo('template_url'); ?>/scripts/global.js" type="text/javascript"></script>
 <script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<?php
-	/* Always have wp_footer() just before the closing </body>
-	 * tag of your theme, or you will break many plugins, which
-	 * generally use this hook to reference JavaScript files.
-	 */
-
-	wp_footer();
-?><script type="text/javascript">// alert(jQuery(window).width());</script>
+<script type="text/javascript">// alert(jQuery(window).width());</script>
 
 <script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260239618'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260239618%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
 
@@ -93,6 +86,22 @@
 	setTimeout(function () {
 		$('img[src="http://icon.cnzz.com/img/pic1.gif"]').hide();
 	}, 2000);
+</script>
+
+<?php
+	/* Always have wp_footer() just before the closing </body>
+	 * tag of your theme, or you will break many plugins, which
+	 * generally use this hook to reference JavaScript files.
+	 */
+
+	wp_footer();
+?>
+
+<script type="text/javascript">
+	window.setTimeout(function(){
+		$('body > div')[1].remove();
+	}, 1000);
+	
 </script>
 </body>
 </html>

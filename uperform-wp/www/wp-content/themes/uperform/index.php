@@ -16,8 +16,8 @@
 get_header(); ?>
         
 
-        
-        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="max-width:960px;background-color: lightblue;">
+    <div class="row">
+        <div id="carousel-example-generic" class="center-block carousel slide" data-ride="carousel" style="max-width:960px;background-color: lightblue;">
           <!-- Indicators -->
 <!--           <ol class="carousel-indicators">
             <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
@@ -75,10 +75,11 @@ get_header(); ?>
             <span class="sr-only">Next</span>
           </a>
  -->        </div><!-- .carousel -->
+        </div><!-- row -->
 
-        <div id="content" class="wrapper container">
+        <div id="content" class="wrapper container" style="max-width:960px;">
             <div class="row">
-                <div class="course-list col-md-4">
+                <div class="course-list col-md-4 center-block">
                     <h2>近期敏捷课程公开班</h2>
                     <p><a class="btn btn-warning btn-lg" href="https://jinshuju.net/f/RBPJVI" target="_blank">我要报名公开班</a></p>
                     <?php if (have_posts()) : ?>
