@@ -96,12 +96,5 @@
 
 	wp_footer();
 ?>
-
-<script type="text/javascript">
-	window.setTimeout(function(){
-		$('body > div')[1].remove();
-	}, 1000);
-	
-</script>
 </body>
 </html>
