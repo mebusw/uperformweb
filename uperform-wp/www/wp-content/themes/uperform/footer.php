@@ -16,9 +16,10 @@
 		<div class="container">
 			<div class="footer-section our-partner left-col">
 				<p class="sub">我们的</p>
-				<h3>合作机构</h3>
+				<h3>合作伙伴</h3>
 				<p><a target="_blank" class="partner1" href="http://www.scrumalliance.org"></a></p>
 				<p><a target="_blank" class="partner2" href="http://www.agilealliance.org"></a></p>
+				<p><a target="_blank" class="" href="http://jackyshen.com">敏捷教练 申健Jacky Shen</a></p>
 				
 <?php
 	/* A sidebar in the footer? Yep. You can can customize
