@@ -117,9 +117,9 @@ get_header(); ?>
                 <div class="col-md-8">
 
                     <div class="row">
-                        <h2>为什么选择优普丰</h3>
+                        <h2>为什么选择优普丰UPerform</h3>
                         <div class="intro">
-                            <p class="intro-section">您在寻找Scrum培训认证，敏捷培训，敏捷教练指导服务吗？ <br>UPerform优普丰顾问团队正是您最值得信任的Scrum Alliane授权机构、</p>
+                            <p class="intro-section">您在寻找Scrum中文培训CSM/CSPO/CSD认证，敏捷培训，敏捷教练指导服务吗？ <br>UPerform优普丰顾问教练团队正是您最值得信任的Scrum Alliane授权机构、</p>
                             <p class="intro-section">我们为想改善软件开发和系统项目的团队和组织提供敏捷培训、教练指导和咨询服务，<br>实现昂贵投入的项目交付成果价值最大化。</p>
                         </div>
                         <div class="advantage">
@@ -176,10 +176,27 @@ get_header(); ?>
                             <p class="book-1"></p>
                             <p>
                             <a target="_blank" href="http://www.amazon.cn/mn/detailApp?qid=1243751317&ref=SR&sr=13-1&uid=480-7784106-1451868&prodid=bkbk746308">Scrum敏捷项目管理</a></p>
+
                             <p class="book-2"></p>
                             <p><a target="_blank" href="http://www.amazon.cn/mn/detailApp?qid=1243751317&ref=SR&sr=13-1&uid=480-7784106-1451868&prodid=bkbk746308">用户故事与敏捷方法</a></p>
+                            
                             <p class="book-3"></p>
                             <p><a target="_blank" href="http://www.amazon.cn/mn/detailApp?qid=1243751317&ref=SR&sr=13-2&uid=480-7784106-1451868&prodid=bkbk936869">Scrum敏捷项目管理实战（微软技术丛书）</a></p>
+                            
+                            <p class=""><img width="90px" height="112px" src="https://images-cn.ssl-images-amazon.com/images/I/41x%2BP3te%2BLL._SX386_BO1,204,203,200_.jpg"></p>
+                            <p><a target="_blank" href="https://www.amazon.cn/%E5%8D%8E%E7%AB%A0%E7%A8%8B%E5%BA%8F%E5%91%98%E4%B9%A6%E5%BA%93-%E6%9C%89%E6%95%88%E7%9A%84%E5%8D%95%E5%85%83%E6%B5%8B%E8%AF%95-%E7%A7%91%E6%96%AF%E5%87%AF%E6%8B%89/dp/B00PVOND2W/">有效的单元测试</a></p>
+                            
+                            <p class=""><img width="90px" height="112px" src="https://images-cn.ssl-images-amazon.com/images/I/51VHSbVDxIL._SX398_BO1,204,203,200_.jpg"></p>
+                            <p><a target="_blank" href="https://www.amazon.cn/%E4%BC%9A%E8%AF%B4%E8%AF%9D%E7%9A%84%E4%BB%A3%E7%A0%81-%E4%B9%A6%E5%86%99%E8%87%AA%E8%A1%A8%E8%BE%BE%E4%BB%A3%E7%A0%81%E4%B9%8B%E9%81%93-%E7%8E%8B%E6%B4%AA%E4%BA%AE/dp/B00E3ENSSU/">会说话的代码</a></p>
+                            
+                            <p class=""><img width="90px" height="112px" src="https://images-cn.ssl-images-amazon.com/images/I/51EDLp0Cn3L._SX354_BO1,204,203,200_.jpg"></p>
+                            <p><a target="_blank" href="https://www.amazon.cn/%E5%85%B1%E5%88%9B%E5%BC%8F%E6%95%99%E7%BB%83-%E8%BD%AC%E5%8F%98%E6%80%9D%E7%BB%B4-%E8%9C%95%E5%8F%98%E4%BA%BA%E7%94%9F-%E4%BA%A8%E5%88%A9%C2%B7%E5%90%89%E5%A7%86%E6%96%AF-%E9%9C%8D%E6%96%AF/dp/B00HQLAD5I/">共创式教练</a></p>
+                            
+                            <p class=""><img width="90px" height="112px" src="https://images-cn.ssl-images-amazon.com/images/I/51z2ZV-xv5L._SX392_BO1,204,203,200_.jpg"></p>
+                            <p><a target="_blank" href="https://www.amazon.cn/SOA与REST-用REST构建企业级SOA解决方案-埃尔/dp/B00H9518Q4/">SOA与REST:用REST构建企业级SOA解决方案</a></p>
+                            
+                            <p class=""><img width="90px" height="112px" src="https://images-cn.ssl-images-amazon.com/images/I/51H6SHy6g2L._SX374_BO1,204,203,200_.jpg"></p>
+                            <p><a target="_blank" href="http://product.dangdang.com/23486630.html">修改代码的艺术</a></p>
                         </div>
                     </div>
 

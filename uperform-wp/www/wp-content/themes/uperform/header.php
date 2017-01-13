@@ -14,8 +14,8 @@ $cat_id= get_blog_cat_id();
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="description" content="Scrum培训, CSM培训，敏捷开发培训, Scrum认证, 中文敏捷认证, 敏捷项目管理培训, 敏捷教练, 敏捷咨询等服务。ScrumChina   Agile 中国敏捷开发培训咨询教练领导品牌！ CSM CSP CST CTC">
-<meta name="keywords" content="Scrum培训, CSM培训，Scrum敏捷开发培训, Scrum认证,Scrum Master,敏捷项目管理培训,敏捷教练,敏捷咨询 Agile Coaching DevOps Coaching SAFE LESS CSM CSP CST CTC 敏捷估算">
+<meta name="description" content="Scrum中文培训, CSM培训，Scrum敏捷开发培训, Scrum认证, 中文敏捷认证, 敏捷项目管理培训, 敏捷教练, 敏捷咨询等服务。Scrum China Agile 中国敏捷开发培训咨询教练领导品牌！ CSM CSP CST CTC">
+<meta name="keywords" content="Scrum中文培训, CSM培训，Scrum敏捷开发培训, Scrum认证,Scrum Master,敏捷项目管理培训,敏捷教练,敏捷咨询 Agile Coaching DevOps Coaching SAFE LESS CSM CSP CST CTC 敏捷估算">
 <title><?php
 	/*
 	 * Print the <title> tag based on what is being viewed.
