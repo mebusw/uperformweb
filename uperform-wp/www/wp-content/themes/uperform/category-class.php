@@ -32,10 +32,11 @@ get_header(); ?>
 			<div class="inner-content">
 				<div class="left-col">
 					<div class="intro left-section class-intro">
-						<p>	我们自2007年开始在中国大陆地区专注于提供Scrum和敏捷方面的公开课，包括Scrum联盟认证和非认证课程。深受广大学员和500强企业的认可和关注。目前我们定期在北京、上海及各主要城市提供CSM、CSPO、CSD、TDD等核心应用课程，帮助培养敏捷团队服务式领导、创建伟大产品及项目的需求负责人、以及高绩效敏捷开发团队成员。 
+						<p>	UPerform自2007年开始在中国大陆地区专注于提供Scrum和敏捷方面的公开课，包括Scrum联盟认证和非认证课程，目前是大陆及台湾地区开设Scrum认证课程规模最大的机构，深受广大学员和500强企业的认可和关注。定期在北京、上海、深圳等主要城市滚动提供CSM、CSPO、CSD、进阶教练等核心应用课程。
 						</p>
 						<div>
 							<a class="btn btn-warning btn-lg" href="https://jinshuju.net/f/RBPJVI"  target="_blank">我要报名公开班</a>
+							<span class="left-section" style="font-size: ">找不到你的城市？请致电<a href="tel:021-34753688">021-34753688</a></span>
 						</div>
 					</div>
 					<div class="course-list class-list">
