@@ -1,0 +1,191 @@
+/****************************INDEX PAGE*****************************
+********************************************************************/
+
+/*
+|--------------------------------------------------------------------------------------------------------
+|  About Our Company Theme
+|--------------------------------------------------------------------------------------------------------
+*/
+#about .owl-theme .owl-controls {
+  height: 100px;
+  margin-top: 130px;
+  padding: 10px;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  width: auto;
+}
+
+#about .owl-theme .owl-controls .owl-buttons div {
+  color: #fff;
+  display: inline;
+}
+#about .owl-theme .owl-controls .owl-buttons div.owl-next i, .owl-theme .owl-controls .owl-buttons div.owl-prev i {
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 8px;
+  padding: 5px 12px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#about .owl-theme .owl-controls .owl-buttons div.owl-next i:hover, .owl-theme .owl-controls .owl-buttons div.owl-prev i:hover{
+	background: #555;
+	color: #fff;
+}
+#about .owl-theme .owl-controls.clickable .owl-page:hover span{
+	background: #00aeef;
+	border: 1px solid #00aeef;
+}
+
+/*
+|--------------------------------------------------------------------------------------------------------
+|  Our Team Members
+|--------------------------------------------------------------------------------------------------------
+*/
+
+#team .owl-theme .owl-controls,
+#testimonial .owl-theme .owl-controls{
+  margin-top: 70px;
+  text-align: center;
+}
+#team .owl-theme .owl-controls .owl-page,
+#testimonial .owl-theme .owl-controls .owl-page{
+  display: inline-block;
+}
+#team .owl-theme .owl-controls .owl-page span,
+#testimonial .owl-theme .owl-controls .owl-page span {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #171717;
+  display: block;
+  height: 12px;
+  margin: 5px 7px;
+  transform: rotate(45deg);
+  width: 12px;
+  margin:0 15px;
+}
+#team .owl-theme .owl-controls .owl-page.active span,
+#team .owl-theme .owl-controls.clickable .owl-page:hover span,
+#testimonial .owl-theme .owl-controls .owl-page.active span,
+#testimonial .owl-theme .owl-controls.clickable .owl-page:hover span{
+  background:#3b54ec;
+  border: 1px solid #3b54ec;
+  position: relative;
+}
+#team .owl-theme .owl-controls .owl-page.active span::before,
+#team .owl-theme .owl-controls.clickable .owl-page:hover span::before,
+#testimonial .owl-theme .owl-controls .owl-page.active span::before,
+#testimonial .owl-theme .owl-controls.clickable .owl-page:hover span::before{
+background: transparent none repeat scroll 0 0;
+border: 1px solid #3b54ec;
+bottom: -7px;
+content: "";
+height: 24px;
+left: -7px;
+position: absolute;
+width: 24px;
+}
+#testimonial .owl-theme .owl-controls .owl-page span {
+  border: 1px solid #fff;
+}
+#testimonial .owl-theme .owl-controls .owl-page.active span,
+#testimonial .owl-theme .owl-controls.clickable .owl-page:hover span{
+  background:#fff;
+  border: 1px solid #fff;
+  position: relative;
+}
+#testimonial .owl-theme .owl-controls .owl-page.active span::before,
+#testimonial .owl-theme .owl-controls.clickable .owl-page:hover span::before{
+  border: 1px solid #fff;
+}
+/****************************INDEX PAGE END**************************
+********************************************************************/
+
+/********************PORTFOLIO SINGLE PAGE START******************
+******************************************************************/
+
+
+/*
+|--------------------------------------------------------------------------------------------------------
+|  Portfolio Present
+|--------------------------------------------------------------------------------------------------------
+*/
+#portfolio-content .owl-theme .owl-controls {
+  bottom: 50%;
+  height: 100px;
+  margin-bottom: 180px;
+  padding: 10px;
+  position: absolute;
+  right: 12px;
+  width: auto;
+}
+
+#portfolio-content .owl-theme .owl-controls .owl-buttons div {
+  color: #fff;
+  display: inline;
+}
+#portfolio-content .owl-theme .owl-controls .owl-buttons div.owl-next i, .owl-theme .owl-controls .owl-buttons div.owl-prev i {
+  background: rgba(0, 0, 0, 0.6) none repeat scroll 0 0;
+  display: inline-block;
+  font-size: 20px;
+  margin: 0 8px;
+  padding: 5px 12px;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+#portfolio-content .owl-theme .owl-controls .owl-buttons div.owl-next i:hover, .owl-theme .owl-controls .owl-buttons div.owl-prev i:hover{
+  background: #555;
+  color: #fff;
+}
+#portfolio-content .owl-theme .owl-controls.clickable .owl-page:hover span{
+  background: #00aeef;
+  border: 1px solid #00aeef;
+}
+
+
+/********************TEAM SINGLE PAGE ******************
+******************************************************************/
+/*
+|--------------------------------------------------------------------------------------------------------
+|  Sidebar Project Show
+|--------------------------------------------------------------------------------------------------------
+*/
+
+#team-single-content .owl-theme .owl-controls {
+  margin-top: -35px;
+  text-align: right;
+}
+#team-single-content .owl-theme .owl-controls .owl-page{
+  display: inline-block;
+}
+#team-single-content .owl-theme .owl-controls .owl-page span {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #fff;
+  display: block;
+  height: 8px;
+  margin: 0 15px;
+  transform: rotate(45deg);
+  width: 8px;
+}
+#team-single-content .owl-theme .owl-controls .owl-page.active span,
+#team-single-content .owl-theme .owl-controls.clickable .owl-page:hover span{
+  background:#fff;
+  position: relative;
+}
+#team-single-content .owl-theme .owl-controls .owl-page.active span::before, 
+#team-single-content .owl-theme .owl-controls.clickable .owl-page:hover span::before {
+  background: transparent none repeat scroll 0 0;
+  border: 1px solid #fff;
+  bottom: -6px;
+  content: "";
+  height: 18px;
+  left: -6px;
+  position: absolute;
+  width: 18px;
+}
