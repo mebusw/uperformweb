@@ -163,7 +163,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12">
                             <div class="header-content">
-                                <h1>让蜕变发生<br><span>CATALYZE </span> YOUR TRANSFORMATION</h1>
+                                <h1>催化蜕变发生<br><span>CATALYZE </span> YOUR TRANSFORMATION</h1>
 <!--                                <div class="header-button">
                                     <a class="btn-buy-now hvr-sweep-to-top" href="index.html#">Buy Now</a>
                                     <a class="header-read-btn hvr-sweep-to-top" href="index.html#">Read More</a>
@@ -187,7 +187,7 @@
                             <div class="header-bottom-info-1">
                                 <h3>国内唯一敏捷教练学院</h3>
                                 <i class="fa fa-codepen"></i>
-                                <p>中国敏捷Scrum培训教练咨询领航者，拥有最具资历的Scrum敏捷教练顾问团队，拥有3位CST和国内唯一CTC持有者</p>
+                                <p>大中华敏捷Scrum培训教练咨询领航者，拥有最具资历的Scrum敏捷教练顾问团队，拥有3位CST和国内唯一CTC持有者担任教练培养导师，平均IT行业经验超过20年<a class="btn btn-info" href="/faq#q2">Scrum认证体系说明</a></p>
                             </div> <!-- header bottom info -->
                         </div> <!-- col-md-5 -->
 
@@ -195,7 +195,7 @@
                             <div class="header-bottom-info-2">
                                 <h3>深耕中国十年</h3>
                                 <i class="fa fa-briefcase"></i>
-                                <p>创立于2007年，中国地区首家Scrum联盟REP-注册教育提供商及国际敏捷联盟企业会员</p>
+                                <p>创立于2007年，中国地区首家Scrum Alliance-REP注册教育提供商及国际敏捷联盟企业会员，最大的中文敏捷培训CSM/CSPO/CSD认证机构，<a href="/clients">超过500家客户清单</a></p>
                             </div> <!-- header bottom info-2 -->
                         </div> <!-- col-md-5 -->
                     </div> <!-- row -->
@@ -210,7 +210,7 @@
                 <div class="container">
                     <div class="section-title-4">
                         <h1>我们提供哪些 <span>服务</span> 内容</h1>
-                        <p>There are many variations of passages of Lorem Ipsum available</p>
+                        <p>我们为想改善软件开发和系统项目的团队和组织提供中英文敏捷培训、教练指导和咨询服务，实现昂贵投入的项目交付成果价值最大化</p>
                     </div> <!-- section title -->
 
                     <div class="row content-area">
@@ -220,7 +220,7 @@
                                     <div class="service-info-1 hvr-glow">
                                         <i class="pe-7s-diamond"></i>
                                         <h3>Scrum国际认证</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+                                        <p>美国Scrum Alliance颁发，全球70%的敏捷组织都在使用Scrum方法，数百万人的选择。深刻理解传统与敏捷环境的异同，海内外丰富背景，准确把握文化差异</p>
                                     </div> <!-- service info -->
                                 </div> <!-- col-sm-6 -->
 
@@ -228,7 +228,7 @@
                                     <div class="service-info-2 hvr-glow">
                                         <i class="pe-7s-rocket"></i>
                                         <h3>企业定制内训</h3>
-                                        <p>Kanban, SAFe, XP, ATDD </p>
+                                        <p>管理类及技术类, 包括精益看板Kanban, SAFe, XP, ATDD, 敏捷Scrum，能用流利普通话或者纯正美式英语交付</p>
                                     </div> <!-- service info -->
                                 </div> <!-- col-sm-6 -->
 
@@ -236,7 +236,7 @@
                                     <div class="service-info-3 hvr-glow">
                                         <i class="pe-7s-joy"></i>
                                         <h3>现场教练咨询顾问</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+                                        <p>很多组织和团队的敏捷之路面对各个层面／方面的各种挑战，期望尽早把团队的绩效作进一步提升，优秀敏捷教练和转型顾问的帮助会是多快好省的选择</p>
                                     </div> <!-- service info -->
                                 </div> <!-- col-sm-6 -->
 
@@ -244,7 +244,7 @@
                                     <div class="service-info-4 hvr-glow">
                                         <i class="pe-7s-light"></i>
                                         <h3>敏捷教练培养</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et </p>
+                                        <p>帮助敏捷实践者朝着专家级CSP认证继续深造，国内CSP仅有百位。</p>
                                     </div> <!-- service info -->
                                 </div> <!-- col-sm-6 -->
                             </div> <!-- service details -->
@@ -260,7 +260,7 @@
                 <div class="container">
                     <div class="section-title-1">
                         <h1>教练们的 <span>新想法</span></h1>
-                        <p>业界动态、博客</p>
+                        <p>敏捷的核心是人：强大的组合，高信誉度的服务。核心教练顾问团队具有多年海内外软件、IT、各类型项目及企业管理方方面面的经验。获得许多知名客户的一致认可和推荐，也是社区的意见领袖</p>
                     </div> <!-- section title -->
 
                     <div class="row content-area">
@@ -316,7 +316,7 @@
                                     <div class="img-bottom-line"></div> 
 
                                     <div class="feature-info">
-                                        <h3>Problem Findout & Solution</h3>
+                                        <h3>敏捷教练成长之路</h3>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit</p>
                                     </div> <!-- feature info -->
                                 </div> <!-- feature-content-area -->
@@ -356,7 +356,7 @@
                                                     <ul>
                                                         <li <?php post_class() ?> id="post-<?php the_ID(); ?>" class="fa  fa-check-circle">
                                                             <div>
-                                                                <h3 class="course-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3><span class="course-title-bg"></span>
+                                                                <h3 class="course-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3><span class="`course-title-bg"></span>
                                                                 <div class="clear"></div>
                                                             </div>
                                                             <div class="entry">
@@ -477,10 +477,11 @@
                                     <div class="col-sm-6 col-md-6">
                                         <div class="footer-menu-link-1 content-area">
                                             <ul>
-                                                <li><a href="index.html"><i class="fa fa-angle-double-right"></i>微信公众号 <img src="http://www.scrumchina.com/wp-content/uploads/2014/03/upeform_wechat.png" width="100px"></a></li>
+                                                <li><a href="/"><i class="fa fa-angle-double-right"></i>微信公众号 <img src="http://www.scrumchina.com/wp-content/uploads/2014/03/upeform_wechat.png" width="100px"></a></li>
                                                 <li><a href="index.html"><i class="fa fa-angle-double-right"></i>友情链接</a></li>
                                                 <p class="footer-social">新浪微博: <a href="http://weibo.com/uperform" class="social-logo">@UPerform_优普丰</a></p>
                                                 <p class="footer-social">Twitter: <a href="http://twitter.com/scrumchina" class="social-logo">@ScrumChina</a></p>
+                                                <p>开放思维 乐活乐工 勇敢专注 敏捷共赢</p>
                                             </ul>
                                         </div> <!-- footer-menu-link-1 -->
                                     </div> <!-- col-md-6 -->
@@ -495,6 +496,7 @@
                                     <div class="popular-post content-area">
                                         <p><a target="_blank" class="partner1" href="http://www.scrumalliance.org"></a></p>
                                         <p><a target="_blank" class="partner2" href="http://www.agilealliance.org"></a></p>
+                                        <img src="/wp-content/themes/uperform/images/SCR20146-Seals-Final-CST.png" width="80" height="80"><img src="/wp-content/themes/uperform/images/SCR20146-Seals-Final-CTC.png" width="80" height="80">
                                         <p><a target="_blank" class="" href="http://jackyshen.com">敏捷教练 申健Jacky Shen</a></p>
                                     </div> <!-- popular-post -->
                                 </div> <!-- footer-post -->
