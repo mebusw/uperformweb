@@ -9,13 +9,13 @@
 
 get_header(); ?>
 
-		<div class="slider">
-			<div class="wrapper" role="main">
+		<div class="container" style="padding-top: 150px;">
+			<div class="row" role="main">
 				<h1 class="page-title"><?php printf( __( '搜索结果: %s', 'twentyten' ), '<span>' . get_search_query() . '</span>' ); ?></h1>
 			</div>
 		</div>
-		<div id="content" class="wrapper">
-			<div class="left-col left-section">
+		<div id="content" class="container">
+			<div class="row left-col left-section">
 <?php if ( have_posts() ) : ?>
 				<?php
 				/* Run the loop for the search to output the results.

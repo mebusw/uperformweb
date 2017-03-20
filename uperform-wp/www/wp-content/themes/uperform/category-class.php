@@ -1,16 +1,7 @@
-<?php
-/**
- * The template for displaying Category Archive pages.
- *
- * @package WordPress
- * @subpackage Uperform
- * @since Uperform 1.0
- */
-
-get_header(); ?>
-
-		<div class="slider">
-			<div class="wrapper" role="main">
+<?php get_header(); ?>
+	<div class="container" style="padding-top: 150px;">
+		<div class="row">
+			<div class="col-md-12" role="main">
 				<h1 class="page-title"><?php
 					printf( __( '%s', 'uperform' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 				?></h1>
@@ -24,7 +15,7 @@ get_header(); ?>
 				<?php endif; // This was the if statement that broke the #top into two parts based on categories. ?>
 			</div><!-- .wrapper -->
 		</div><!-- .slider -->
-		<div id="content" class="wrapper">
+		<div id="content" class="row">
 			<div class="sub-nav">
 				<?php wp_nav_menu( array( 'container_class' => 'sub-menu', 'theme_location' => 'secondary_courses' ) ); ?><!-- .sub_nav -->
 				<div class="clear"></div>
@@ -58,5 +49,5 @@ get_header(); ?>
 				<div class="clear"></div>
 			</div>
 		</div><!-- #content -->
-			
+	</div><!-- #container -->
 <?php get_footer(); ?>

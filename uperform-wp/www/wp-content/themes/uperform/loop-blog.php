@@ -1,14 +1,6 @@
-<?php
-/**
- * The template for displaying Category Archive pages.
- *
- * @package WordPress
- * @subpackage Uperform
- * @since Uperform 1.0
- */
-?>
-<div class="slider">
-<div class="wrapper" role="main">
+<?php ?>
+<div class="container" style="padding-top: 150px;">
+<div class="row" role="main">
 <h1 class="page-title"><?php
 	if(is_tag()){
 		printf( __( 'Tag —— "%s"', 'uperform' ), '<span>' . single_cat_title( '', false ) . '</span>' );
@@ -19,9 +11,10 @@
 ?></h1>
 </div><!-- .wrapper -->
 </div><!-- .slider -->
-<div id="content" class="wrapper blog">
-<div class="inner-content">
-<div class="left-section left-col trainning">
+
+<div id="content" class="container blog">
+<div class="row">
+<div class="col-md-12 left-section left-col trainning">
 <div class="blog-list">
 <?php while ( have_posts() ) : the_post(); ?>
 <article>

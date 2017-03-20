@@ -11,8 +11,8 @@ get_template_part( 'loop', 'blog' );
 get_footer(); 
 exit;
 ?>
-<div id="container">
-	<div id="content" role="main">
+<div class="container" style="padding-top: 150px;">
+	<div id="content" role="main" class="row">
 		<h1 class="page-title"><?php
 			printf( __( 'Tag Archives: %s', 'twentyten' ), '<span>' . single_tag_title( '', false ) . '</span>' );
 		?></h1>

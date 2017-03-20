@@ -1,16 +1,12 @@
 <?php
 /**
-* The Template for displaying all single posts.
-*
-* @package WordPress
-* @subpackage Uperform
-* @since Uperform 1.0
+* The Template for displaying all single blogs.
 */
 get_header();
 $cat_id= get_blog_cat_id();
 ?>
-<div class="slider">
-<div class="wrapper" role="main"><?php 
+<div class="container" style="padding-top: 150px;">
+<div class="row" role="main"><?php 
 if ( in_category( 'class' )) : ?>
 <h2 class="page-title"><a href="/category/courses/class">公开班课程简介</a></h2>
 <?php else : ?>
@@ -21,14 +17,16 @@ echo $category[0]->cat_name;
 <?php endif; ?></div>
 <!-- .wrapper --></div>
 <!-- .slider -->
-<div id="content" class="wrapper blog">
-<div class="left-col left-section"><?php
-/* Run the loop to output the post.
-* If you want to overload this in a child theme then include a file
-* called loop-single.php and that will be used instead.
-*/
-get_template_part( 'loop', 'single' );
-?>
+<div id="content" class="container blog">
+<div class="row left-col left-section">
+	<div class="col-md-12"><?php
+	/* Run the loop to output the post.
+	* If you want to overload this in a child theme then include a file
+	* called loop-single.php and that will be used instead.
+	*/
+	get_template_part( 'loop', 'single' );
+	?>
+	</div>
 </div>
 <?php if ($cat_id==BLOG_CAT_ID) {
 	get_sidebar('blog');

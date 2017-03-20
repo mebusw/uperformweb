@@ -1,20 +1,12 @@
 <?php
 /**
- * The template for displaying all pages.
+ * The template for displaying customerized pages.
  *
- * This is the template that displays all pages by default.
- * Please note that this is the WordPress construct of pages
- * and that other 'pages' on your WordPress site will use a
- * different template.
- *
- * @package WordPress
- * @subpackage Uperform
- * @since Uperform 1.0
  */
 
 get_header(); ?>
-		<div class="slider">
-			<div class="wrapper" role="main">
+		<div class="container" style="padding-top: 150px;">
+			<div class="row" role="main">
 			<?php if ( is_front_page() ) { ?>
 				<h2 class="page-title"><?php the_title(); ?></h2>
 			<?php } else { ?>
@@ -22,8 +14,9 @@ get_header(); ?>
 			<?php } ?>
 			</div>
 		</div>
-		<div id="content" class="wrapper">
-			<div class="left-col left-section">
+		<div id="content" class="container">
+			<div class="row left-col left-section">
+			<div class="col-md-12">
 			<?php
 			/* Run the loop to output the page.
 			 * If you want to overload this in a child theme then include a file
@@ -31,6 +24,7 @@ get_header(); ?>
 			 */
 			get_template_part( 'loop', 'page' );
 			?>
+			</div>
 			</div><!-- .left-section -->
 			<div class="right-col right-section course-list">
 				<h2>近期敏捷课程公开班</h2>
