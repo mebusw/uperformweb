@@ -1,5 +1,5 @@
 body{
-	font-family: Roboto, Raleway, Ubuntu , sans-serif;
+  font-family: Roboto, Raleway, Ubuntu , sans-serif;
 }
 a:focus{
   outline: none;
@@ -373,7 +373,7 @@ ul{
   padding: 0px;
 }
 .navbar-active .navbar-nav{
-  height: 67px;
+  height: 135px;
 }
 .navbar-fixed-top{
   top: 50px;
@@ -393,8 +393,8 @@ ul{
   margin-top: 115px;
 }
 .inner-header {
-  height: 810px;
-  padding: 10% 0 110px;
+  //height: 810px;
+  padding: 2% 0 0px;
 }
 .header-content {
   margin-top: 0px;

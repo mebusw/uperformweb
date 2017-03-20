@@ -33,7 +33,7 @@ button.navbar-toggle.collapsed {
   margin-top: 100px;
 }
 .section-padding {
-  padding: 75px 0;
+  padding: 37px 0;
 }
 .content-area {
   margin-top:50px;
@@ -51,7 +51,7 @@ button.navbar-toggle.collapsed {
   width: 140px;
 }
 .inner-header {
-  height: 525px;
+  /*height: 525px;*/
 }
 .header-content {
   margin-top: -25px;
@@ -257,7 +257,7 @@ button.navbar-toggle.collapsed {
   margin-top: 11%;
 }
 #service {
-  margin-top: 304px;
+  /*margin-top: 304px;*/
 }
 .section-title-4::before {
   bottom: 69px;
@@ -1095,7 +1095,7 @@ button.navbar-toggle.collapsed {
   top: 301px;
 }
 #features {
-  margin-top: 300px;
+  margin-top: 50px;
 }
 .feature-read-btn {
   font-size: 16px;
@@ -1137,7 +1137,7 @@ button.navbar-toggle.collapsed {
   margin-top: 11%;
 }
 #service {
-  margin-top: 304px;
+  margin-top: 54px;
 }
 .section-title-4::before {
   bottom: 46px;
@@ -1692,7 +1692,7 @@ a.news-more-btn {
 @media (min-width: 768px) and (max-width: 979px){
 
 .section-padding {
-  padding: 90px 0;
+  padding: 45px 0;
 }
 .content-area {
   margin-top:55px;
