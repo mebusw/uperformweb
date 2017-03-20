@@ -43,9 +43,9 @@
     <link rel="apple-touch-icon" size="114x114" href="img/favicon/apple-touch-icon-114x114.png">
 
     <!-- Fonts -->
-    <link href='https://fonts.lug.ustc.edu.cn/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
+<!--     <link href='https://fonts.lug.ustc.edu.cn/css?family=Roboto:400,300,500,700,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.lug.ustc.edu.cn/css?family=Raleway:400,300,500,600,700,900,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.lug.ustc.edu.cn/css?family=Ubuntu:400,500,700,300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.lug.ustc.edu.cn/css?family=Ubuntu:400,500,700,300' rel='stylesheet' type='text/css'> -->
     
     <link rel="stylesheet" href="/wp-content/themes/uperform/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="/wp-content/themes/uperform/fonts/pe-icon-7-stroke/css/helper.css">
