@@ -47,9 +47,9 @@
     <link href='https://fonts.lug.ustc.edu.cn/css?family=Raleway:400,300,500,600,700,900,800' rel='stylesheet' type='text/css'>
     <link href='https://fonts.lug.ustc.edu.cn/css?family=Ubuntu:400,500,700,300' rel='stylesheet' type='text/css'>
     
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/fonts/pe-icon-7-stroke/css/helper.css">
-    <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="/wp-content/themes/uperform/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
+    <link rel="stylesheet" href="/wp-content/themes/uperform/fonts/pe-icon-7-stroke/css/helper.css">
+    <link rel="stylesheet" href="/wp-content/themes/uperform/fonts/flaticon/flaticon.css">
     <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.carousel.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.transitions.css">
@@ -210,7 +210,7 @@
                 <div class="container">
                     <div class="section-title-4">
                         <h1>我们提供哪些 <span>服务</span> 内容</h1>
-                        <p>我们为想改善软件开发和系统项目的团队和组织提供中英文敏捷培训、教练指导和咨询服务</p>
+                        <p>针对想要改善软件开发和产品探索的组织提供中英文服务</p>
                     </div> <!-- section title -->
 
                     <div class="row content-area">
@@ -282,13 +282,13 @@
                                     <div class="img-bottom-line"></div>
 
                                     <div class="feature-info">
-                                        <h3 style="color:#333">社交活动方式做大规模敏捷</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit</p>
+                                        <h3 style="color:#333">社交活动方式做大规模敏捷计划</h3>
+                                        <p>译者：Jacky Shen <br>本文介绍了乐高公司的大规模敏捷实践，如何做发布计划</p>
                                     </div> <!-- feature info -->
                                 </div> <!-- feature-content-area -->
 
                                 <div class="feature-btn">
-                                    <a class="feature-read-btn hvr-sweep-to-right" href="index.html">Read More</a>
+                                    <a class="feature-read-btn hvr-sweep-to-right" href="/blog/planning-as-a-social-event-scaling-agile-at-lego">阅读更多</a>
                                 </div> <!-- feature btn -->
                             </div> <!-- feature detail -->
                         </div> <!-- col-md-6 -->
@@ -303,13 +303,13 @@
                                     <div class="img-bottom-line"></div>
 
                                     <div class="feature-info">
-                                        <h3 style="color:#333">其实你不懂程序员</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit</p>
+                                        <h3 style="color:#333">如何逐步引入TDD</h3>
+                                        <p>作者: Stephen Wang <br>团队为何抵触测试驱动开发？如何有效激励团队？</p>
                                     </div> <!-- feature info -->
                                 </div> <!-- feature-content-area -->
 
                                 <div class="feature-btn">
-                                    <a class="feature-read-btn hvr-sweep-to-right" href="index.html">Read More</a>
+                                    <a class="feature-read-btn hvr-sweep-to-right" href="/blog/how-to-introduce-tdd-gradually">阅读更多</a>
                                 </div> <!-- feature btn -->
                             </div> <!-- feature detail -->
                         </div> <!-- col-md-6 -->
@@ -324,13 +324,13 @@
                                     <div class="img-bottom-line"></div> 
 
                                     <div class="feature-info">
-                                        <h3 style="color:#333">敏捷教练成长之路</h3>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore et Lorem ipsum dolor sit</p>
+                                        <h3 style="color:#333">创意文化管理札记</h3>
+                                        <p>作者：Bill Li <br>皮克斯动画公司是如何打造创意的？如何营造这样一个环境？</p>
                                     </div> <!-- feature info -->
                                 </div> <!-- feature-content-area -->
 
                                 <div class="feature-btn">
-                                    <a class="feature-read-btn hvr-sweep-to-right" href="index.html">Read More</a>
+                                    <a class="feature-read-btn hvr-sweep-to-right" href="/blog/creative_culture_management">阅读更多</a>
                                 </div> <!-- feature btn -->
                             </div> <!-- feature detail -->
                         </div> <!-- col-md-6 -->
@@ -350,7 +350,7 @@
                     </div> <!-- name -->
                     <div class="row content-area">
                         <div class="all-price">
-                            <div class="col-sm-12 col-md-6">
+                            <div class="col-sm-12 col-md-8">
                                 <div class="pricing-table-2 hvr-glow">
                                     <div class="table-header">
                                         <h3>即将开课</h3>
@@ -363,7 +363,8 @@
                                       while ($special_query->have_posts()) : $special_query->the_post();
                                       $do_not_duplicate = $post->ID; ?>
                                                     
-                                                        <li id="post-<?php the_ID(); ?>"><i class="fa  fa-check-circle"></i><a href="<?php the_permalink() ?>"><?php the_title(); ?></a></li>
+                                                        <li id="post-<?php the_ID(); ?>"><i class="fa  fa-check-circle"></i><a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
+                                                        <div style="font-size: 12px;"><?php the_content('详细介绍'); ?></div></li>
                                                       
                                         <?php endwhile; ?>
                                     <?php else : ?>
@@ -384,7 +385,7 @@
                                     </div> --> <!-- trending batch -->
                                 </div> <!-- pricing table -->
                             </div> <!-- col-md-6 -->
-                            <div class="col-sm-12 col-md-6">
+                            <div class="col-sm-12 col-md-4">
                                 <img class="img-responsive" src="/wp-content/uploads/2016/06/20160616Chengdu.JPG">
                             </div>
 
@@ -409,7 +410,7 @@
                                     <a href="/tools">
                                     <i class="flaticon-medical"></i>
                                     <h3>计划扑克</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut </p>
+                                    <p>如何使用计划扑克进行敏捷估算？这里可以找到打印版和微信版本哦</p>
                                     </a>
                                 </div> <!-- about info-->
                             </div> <!-- col-md-12 -->
@@ -418,7 +419,7 @@
                                 <div class="about-info-2">
                                     <i class="flaticon-technology"></i>
                                     <h3>任务板和看板</h3>
-                                    <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed do eius mod tempor incididunt ut</p>
+                                    <p>可视化管理的常用工具</p>
                                 </div> <!-- about info -->
                             </div> <!-- col-md-6 -->
 
@@ -427,7 +428,7 @@
                                     <a href="/resources/books">
                                     <i class="flaticon-person"></i>
                                     <h3>推荐书籍</h3>
-                                    <p>Lorem ipsum dolor sit amet, conse ctetur adipiscing elit, sed do eius mod tempor incididunt ut</p>
+                                    <p>想成为一流敏捷教练？这里的书你看过多少？我们的教练顾问团队极力推荐</p>
                                     </a>
                                 </div> <!-- about info -->
                             </div> <!-- col-md-6 -->

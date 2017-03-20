@@ -16,7 +16,7 @@ ul{
 .white-transparent-overlay-80 {
   background: rgba(255, 255, 255, 0.8) none repeat scroll 0 0;
 }
-
+;
 /****************************Preloader Start**************************
 ***********************************************************************/
 #preloader { 
@@ -826,6 +826,9 @@ ul{
 }
 .feature-info {
   padding: 0 20px 20px 20px;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
 }
 .info-image > img {
   width: 100%;
@@ -1728,7 +1731,7 @@ figcaption.portfolio-hover {
 
 .pricing-table-1, .pricing-table-2 {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  height: 428px;
+  /*height: 428px;*/
   position: relative;
   transition: all 0.4s ease 0s;
   width: 100%;
