@@ -77,7 +77,7 @@
                                         <a href="/category/courses/trainning" style="text-decoration: none; color: #333;">
                                         <i class="pe-7s-rocket"></i>
                                         <h3>企业定制内训</h3>
-                                        <p>管理类及技术类, 包括精益看板Kanban, SAFe, XP, ATDD, 敏捷Scrum，能用流利普通话或者纯正美式英语交付</p>
+                                        <p>管理类及技术类, 包括精益看板Lean Kanban, SAFe, XP, ATDD, 敏捷Scrum，Scaling Agile, 能用流利普通话或者纯正美式英语交付</p>
                                         </a>
                                     </div> <!-- service info -->
                                 </div> <!-- col-sm-6 -->
@@ -94,10 +94,10 @@
 
                                 <div class="col-sm-6 col-md-3">
                                     <div class="service-info-4 hvr-glow">
-                                        <a href="/consulting" style="text-decoration: none; color: #333;">
+                                        <a href="/courses/class/sh-2017-0519" style="text-decoration: none; color: #333;">
                                         <i class="pe-7s-light"></i>
                                         <h3>敏捷教练培养</h3>
-                                        <p>帮助敏捷实践者朝着专家级CSP认证继续深造，国内CSP仅有百位。</p>
+                                        <p>帮助敏捷实践者和ScrumMaster朝着专家级CSP认证继续深造，国内CSP仅有百位。</p>
                                         </a>
                                     </div> <!-- service info -->
                                 </div> <!-- col-sm-6 -->
@@ -114,72 +114,40 @@
                 <div class="container">
                     <div class="section-title-1">
                         <h1>教练们的 <span>新想法</span></h1>
-                        <p>敏捷的核心是人：强大的组合，高信誉度的服务。核心教练顾问团队具有多年海内外软件、IT、各类型项目及企业管理方方面面的经验。获得许多知名客户的一致认可和推荐，也是社区的意见领袖</p>
+                        <p>敏捷的核心是人：强大的组合，高信誉度的服务。核心教练顾问团队具有多年海内外软件、IT、各类型项目及企业管理方方面面的经验。获得许多知名客户的一致认可和推荐，也是社区的意见领袖。<h5><a href="#social-network">也可以关注我们的微信公众号</a></h5></p>
                     </div> <!-- section title -->
 
                     <div class="row content-area">
-                        <div class="col-sm-6 col-md-4">
-                            <div class="feature-detail-1"> 
-                                <div class="feature-content-area">
-                                    <div class="info-image">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/feature/01.jpg" alt="Feature image">
-                                    </div> <!-- info image -->
+                    <?php $special_query = new WP_Query('cat='.BLOG_CAT_ID.'&orderby=id&order=DESC&showposts=3');
+                        while ($special_query->have_posts()) : $special_query->the_post();$do_not_duplicate = $post->ID; ?>
 
-                                    <div class="img-bottom-line"></div>
+                        <a href="<?php the_permalink() ?>" title="<?php the_title_attribute(); ?>">
+                            <div class="col-sm-6 col-md-4" id="post-<?php the_ID(); ?>">
+                                <div class="feature-detail-1"> 
+                                    <div class="feature-content-area">
+                                        <div class="info-image">
+                                            <img src="<?php bloginfo('template_url'); ?>/img/feature/0<?php $index = $special_query->current_post + 1; echo $index; ?>.jpg" alt="Feature image">
+                                        </div> <!-- info image -->
 
-                                    <div class="feature-info">
-                                        <h3 style="color:#333">社交活动方式做大规模敏捷计划</h3>
-                                        <p>译者：Jacky Shen <br>本文介绍了乐高公司的大规模敏捷实践，如何做发布计划</p>
-                                    </div> <!-- feature info -->
-                                </div> <!-- feature-content-area -->
+                                        <div class="img-bottom-line"></div>
 
-                                <div class="feature-btn">
-                                    <a class="feature-read-btn hvr-sweep-to-right" href="/blog/planning-as-a-social-event-scaling-agile-at-lego">阅读更多</a>
-                                </div> <!-- feature btn -->
-                            </div> <!-- feature detail -->
-                        </div> <!-- col-md-6 -->
+                                        <div class="feature-info">
+                                            <h3 style="color:#333"><?php the_title(); ?></h3>
+                                            <p><?php echo get_the_date(); ?> <br>  <em><?php the_category(', '); ?></em> </p>
+                                        </div> <!-- feature info -->
+                                    </div> <!-- feature-content-area -->
+                                </div> <!-- feature detail -->
+                            </div> <!-- col-md-4 -->
+                        </a>
+                    <?php endwhile; ?>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="feature-btn">
+                            <a class="feature-read-btn hvr-sweep-to-right" href="/blog">更多主意</a>
+                        </div> <!-- feature btn -->
+                    </div>
+                    <div class="col-md-6 col-sm-12">
 
-                        <div class="col-sm-6 col-md-4">
-                            <div class="feature-detail-2">   
-                                <div class="feature-content-area">
-                                    <div class="info-image">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/feature/02.jpg" alt="Feature image">
-                                    </div> <!-- info image -->
-
-                                    <div class="img-bottom-line"></div>
-
-                                    <div class="feature-info">
-                                        <h3 style="color:#333">如何逐步引入TDD</h3>
-                                        <p>作者: Stephen Wang <br>团队为何抵触测试驱动开发？如何有效激励团队？</p>
-                                    </div> <!-- feature info -->
-                                </div> <!-- feature-content-area -->
-
-                                <div class="feature-btn">
-                                    <a class="feature-read-btn hvr-sweep-to-right" href="/blog/how-to-introduce-tdd-gradually">阅读更多</a>
-                                </div> <!-- feature btn -->
-                            </div> <!-- feature detail -->
-                        </div> <!-- col-md-6 -->
-
-                        <div class="col-sm-6 col-md-4">
-                            <div class="feature-detail-3"> 
-                                <div class="feature-content-area">
-                                    <div class="info-image">
-                                        <img src="<?php bloginfo('template_url'); ?>/img/feature/03.jpg" alt="Feature image">
-                                    </div> <!-- info image -->
-
-                                    <div class="img-bottom-line"></div> 
-
-                                    <div class="feature-info">
-                                        <h3 style="color:#333">创意文化管理札记</h3>
-                                        <p>作者：Bill Li <br>皮克斯动画公司是如何打造创意的？如何营造这样一个环境？</p>
-                                    </div> <!-- feature info -->
-                                </div> <!-- feature-content-area -->
-
-                                <div class="feature-btn">
-                                    <a class="feature-read-btn hvr-sweep-to-right" href="/blog/creative_culture_management">阅读更多</a>
-                                </div> <!-- feature btn -->
-                            </div> <!-- feature detail -->
-                        </div> <!-- col-md-6 -->
+                    </div>
                     </div> <!-- row -->
                 </div> <!-- container -->
             </div> <!-- section padding -->
@@ -196,7 +164,7 @@
                     </div> <!-- name -->
                     <div class="row content-area">
                         <div class="all-price">
-                            <div class="col-sm-12 col-md-8">
+                            <div class="col-sm-12 col-md-7">
                                 <div class="pricing-table-2 hvr-glow">
                                     <div class="table-header">
                                         <h3>即将开课</h3>
@@ -231,10 +199,23 @@
                                     </div> --> <!-- trending batch -->
                                 </div> <!-- pricing table -->
                             </div> <!-- col-md-6 -->
-                            <div class="col-sm-12 col-md-4">
-                                <img class="img-responsive" src="/wp-content/uploads/2016/06/20160616Chengdu.JPG">
+                            <div class="col-sm-12 col-md-5">
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/classroom3.jpg" style="margin-bottom: 20px;">                   
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/classroom1.jpg" style="margin-bottom: 20px;">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12">
+                                        <img class="img-responsive" src="<?php bloginfo('template_url'); ?>/img/classroom2.jpg" style="margin-bottom: 20px;">
+                                    </div>
+                                </div>
                             </div>
-
                         </div> <!-- all price -->
                     </div> <!-- row -->
                 </div> <!-- container -->

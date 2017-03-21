@@ -23,13 +23,13 @@
                             </div> <!-- col-md-4 -->
 
                             <div class="col-sm-6 col-md-4">
-                                <div class="footer-quick-link">
+                                <div class="footer-quick-link" id="social-network">
                                     <h3>社交媒体</h3>
 
                                     <div class="col-sm-6 col-md-6">
                                         <div class="footer-menu-link-1 content-area">
                                             <ul>
-                                                <li><a href="/"><i class="fa fa-angle-double-right"></i>微信公众号 <img src="http://www.scrumchina.com/wp-content/uploads/2014/03/upeform_wechat.png" width="100px"></a></li>
+                                                <li><a href="/"><i class="fa fa-angle-double-right"></i>微信公众号: @UPerform优普丰 <img src="http://www.scrumchina.com/wp-content/uploads/2014/03/upeform_wechat.png" width="100px"></a></li>
                                                 <li><a href="http://weibo.com/uperform"><i class="fa fa-angle-double-right"></i>新浪微博: @UPerform_优普丰</a></li>
                                                 <li><a href="http://twitter.com/scrumchina"><i class="fa fa-angle-double-right"></i>Twitter: @ScrumChina</a></li>                
                                             </ul>
