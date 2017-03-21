@@ -4,7 +4,7 @@
         
         <!-- Header Starts -->
         <header id="header">
-            <div class="inner-header" style="padding-top: 5%;">
+            <div class="inner-header" style="padding-top: 10px;">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -228,7 +228,7 @@
                 <div class="container">
                     <div class="section-title-1">
                         <h1><span>工具</span> 和译著 </h1>
-                        <p>There are many variations of passages of Lorem Ipsum available</p>
+                        <p>大道至简，重剑无锋</p>
                     </div> <!-- name -->
                     <div class="row content-area">
                         <div class="col-xs-12 col-sm-6 col-md-6">

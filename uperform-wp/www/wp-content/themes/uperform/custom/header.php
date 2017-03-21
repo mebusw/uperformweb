@@ -131,7 +131,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="/"><img src="<?php bloginfo('template_url'); ?>/img/logo-uperform.png" alt="UPerform" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>"></a>
+              <a class="navbar-brand" href="/"><img src="<?php bloginfo('template_url'); ?>/img/logo-uperform.png" alt="UPerform" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" style="margin-top: -18px;"></a>
             </div> <!-- navbar header -->
 
             <!-- Collect the nav links, forms, and other content for toggling -->

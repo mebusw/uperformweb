@@ -123,10 +123,12 @@
                 if ($(window).scrollTop() > 80) {
                     $(".navbar").addClass('navbar-active');
                     $(".navbar").css('min-height', '90px');
+                    $(".navbar").css('height', '90px');
                     $(".navbar navbar-nav").css('padding-top', '25px');
                 } else {
                     $(".navbar").removeClass('navbar-active');
                     $(".navbar").css('min-height', '105px');
+                    $(".navbar").css('height', '');
                     $(".navbar navbar-nav").css('padding-top', '35px');
                 }
               });

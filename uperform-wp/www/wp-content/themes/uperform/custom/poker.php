@@ -25,7 +25,7 @@
 <body>
 <h1><b>敏捷估算计划扑克</b></h1>
 <h2>点击某张牌，即可放大打出</h2>
-<div style="margin-top: 10%">
+<div style="margin-top: 10%, margin-bottom: 10%">
     <a class="example-image-link" href="http://7fvfjt.com1.z0.glb.clouddn.com/poker_0.png" data-lightbox="example-set1" data-title=""><img class="example-image" src="http://7fvfjt.com1.z0.glb.clouddn.com/poker_0_thumb.png" alt="估算扑克0"/></a>
     <a class="example-image-link" href="http://7fvfjt.com1.z0.glb.clouddn.com/poker_s.png" data-lightbox="example-set2" data-title=""><img class="example-image" src="http://7fvfjt.com1.z0.glb.clouddn.com/poker_s_thumb.png" alt="估算扑克S"/></a>
     <a class="example-image-link" href="http://7fvfjt.com1.z0.glb.clouddn.com/poker_m.png" data-lightbox="example-set3" data-title=""><img class="example-image" src="http://7fvfjt.com1.z0.glb.clouddn.com/poker_m_thumb.png" alt="估算扑克M"/></a>
