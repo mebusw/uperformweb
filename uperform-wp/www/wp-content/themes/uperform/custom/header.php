@@ -50,7 +50,6 @@
     <link rel="stylesheet" href="/wp-content/themes/uperform/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css">
     <link rel="stylesheet" href="/wp-content/themes/uperform/fonts/pe-icon-7-stroke/css/helper.css">
     <link rel="stylesheet" href="/wp-content/themes/uperform/fonts/flaticon/flaticon.css">
-    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.carousel.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/owl.transitions.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/joining-carousel-theme.css">
@@ -59,7 +58,8 @@
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/css/bootstrap.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/style2.css">
     <link rel="stylesheet" href="<?php bloginfo('template_url'); ?>/responsive.css">
-    <link href="<?php bloginfo('template_url'); ?>/blog_style.css" type="text/css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="//cdn.bootcss.com/modernizr/2.8.3/modernizr.min.js"></script>
 
     <?php

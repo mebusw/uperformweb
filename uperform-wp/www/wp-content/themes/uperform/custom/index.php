@@ -4,7 +4,7 @@
         
         <!-- Header Starts -->
         <header id="header">
-            <div class="inner-header" style="padding-top: 10px;">
+            <div class="inner-header" style="padding-top: 10px; background-color: rgba(59, 84, 236, 1);">
                 <div class="container">
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12">
@@ -266,7 +266,7 @@
                         <div class="col-xs-12 col-sm-6 col-md-6">
                             <div class="about-img-slide">
                                 <div class="slider-image">
-                                    <a href="/resources/translated"><img src="<?php bloginfo('template_url'); ?>/img/books.png" class="img-responsive"></a>
+                                    <a href="/resources/translated"><img src="<?php bloginfo('template_url'); ?>/img/books.jpg" class="img-responsive"></a>
                                 </div> <!-- slider image -->
                             </div> <!-- about image slider -->
                         </div> <!-- col-md-6 -->

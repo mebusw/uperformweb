@@ -390,7 +390,7 @@ ul{
 */
 
 #header {
-  background: rgba(59, 84, 236, 1) url("img/header.png") no-repeat  scroll 0px 0px / cover ;
+  /*background: rgba(59, 84, 236, 1) url("img/header.png") no-repeat  scroll 0px 0px / cover ;*/
   margin-top: 115px;
 }
 .inner-header {
@@ -2807,7 +2807,7 @@ span.post-author{
 
 #internal-page-heading-1 {
   margin-top: 124px;
-  background:rgba(59, 84, 236, 1) url("img/header.png") no-repeat scroll 0 0 / cover ;
+  /*background:rgba(59, 84, 236, 1) url("img/header.png") no-repeat scroll 0 0 / cover ;*/
 }
 .internal-page-heading-info h2{
   font-size: 30px;
@@ -2845,7 +2845,7 @@ span.post-author{
 }
 #internal-page-heading-2{
   margin-top: 124px;
-  background:rgba(59, 84, 236, 1) url("img/header.png") no-repeat scroll 0 0 / cover ;
+  /*background:rgba(59, 84, 236, 1) url("img/header.png") no-repeat scroll 0 0 / cover ;*/
 }
 
 /********************OTHER PAGES HEADER END******************
@@ -3057,7 +3057,7 @@ span.post-author{
 /********************PORTFOLIO SINGLE PAGE START******************
 ******************************************************************/
 #internal-page-heading-3 {
- background:rgba(59, 84, 236, 1) url("img/header.png") no-repeat scroll 0 0 / cover ;
+ /*background:rgba(59, 84, 236, 1) url("img/header.png") no-repeat scroll 0 0 / cover ;*/
   margin-top: 124px;
 }
 .present-img {
