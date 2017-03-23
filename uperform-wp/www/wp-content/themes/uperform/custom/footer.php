@@ -122,13 +122,22 @@
             $(window).on('scroll', function() {
                 if ($(window).scrollTop() > 80) {
                     $(".navbar").addClass('navbar-active');
-                    $(".navbar").css('min-height', '90px');
-                    $(".navbar").css('height', '90px');
                     $(".navbar navbar-nav").css('padding-top', '25px');
+                    if ($(window).width() < 480) {
+                        $(".navbar").css('min-height', '75px');
+                        $(".navbar").css('height', '75px');
+                    } else {
+                        $(".navbar").css('min-height', '105px');
+                        $(".navbar").css('height', '105px');
+                    }
                 } else {
                     $(".navbar").removeClass('navbar-active');
-                    $(".navbar").css('min-height', '105px');
                     $(".navbar").css('height', '');
+                    if ($(window).width() < 480) {
+                        $(".navbar").css('height', '95px');
+                    } else {
+                        $(".navbar").css('height', '120px');
+                    }
                     $(".navbar navbar-nav").css('padding-top', '35px');
                 }
               });
