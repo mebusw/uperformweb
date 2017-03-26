@@ -9,7 +9,7 @@
                     <div class="row">
                         <div class="col-xs-12 col-sm-12 col-md-12">
                             <div class="header-content">
-                                <h1>让蜕变发生<span> CATALYZE </span> TRANSFORMATION</h1>
+                                <h1>催化蜕变<span> CATALYZE </span> TRANSFORMATION</h1>
 <!--                                <div class="header-button">
                                     <a class="btn-buy-now hvr-sweep-to-top" href="index.html#">Buy Now</a>
                                     <a class="header-read-btn hvr-sweep-to-top" href="index.html#">Read More</a>
