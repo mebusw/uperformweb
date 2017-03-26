@@ -124,8 +124,8 @@
                     $(".navbar").addClass('navbar-active');
                     $(".navbar navbar-nav").css('padding-top', '25px');
                     if ($(window).width() < 480) {
-                        $(".navbar").css('min-height', '75px');
-                        $(".navbar").css('height', '75px');
+                        //$(".navbar").css('min-height', '75px');
+                        //$(".navbar").css('height', '75px');
                     } else {
                         $(".navbar").css('min-height', '105px');
                         $(".navbar").css('height', '105px');

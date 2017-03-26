@@ -140,7 +140,7 @@
                 <li class="active"><a href="/">首页</a></li>                
                 <li><a href="/courses">认证培训</a></li>                
                 <li><a href="/consulting">教练顾问</a></li>                
-                <li><a href="/team">团队</a></li>  
+                <li><a href="/team">核心团队</a></li>  
                 <li><a href="/blog">博客</a></li>                
                 <li><a href="/resources">学习资源</a></li>                
                 <li><a href="/clients">客户</a></li>         
