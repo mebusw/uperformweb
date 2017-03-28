@@ -88,6 +88,7 @@
                     <a class="more-btn" href="/category/courses/class">所有公开班</a><span class="more-btn-bg"></span>
                     <div class="clear"></div>
                 </div>
+            </div>
         </div><!-- #content -->
             
 <?php get_footer(); ?>
