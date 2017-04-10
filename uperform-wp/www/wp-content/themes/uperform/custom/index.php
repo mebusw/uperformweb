@@ -33,7 +33,7 @@
                             <div class="header-bottom-info-1">
                                 <h3>国内唯一敏捷教练学院</h3>
                                 <i class="fa fa-codepen"></i>
-                                <p>优普丰机构是大中华地区敏捷Scrum培训教练咨询领航者，拥有最具资历的Scrum敏捷教练顾问团队，拥有3位CST和国内唯一CTC持有者担任教练培养导师，平均IT行业经验超过20年。<a class="btn btn-info" href="/faq#q2">Scrum认证体系说明</a></p>
+                                <p>优普丰机构是大中华地区敏捷Scrum培训教练咨询领航者，最具资历的Scrum敏捷教练顾问团队，拥有3位CST和国内唯一CTC持有者担任教练培养导师，平均IT行业经验超过20年。<a class="btn btn-info" href="/faq#q2">Scrum认证体系说明</a></p>
                             </div> <!-- header bottom info -->
                         </div> <!-- col-md-5 -->
 
@@ -77,7 +77,7 @@
                                         <a href="/category/courses/trainning" style="text-decoration: none; color: #333;">
                                         <i class="pe-7s-rocket"></i>
                                         <h3>企业定制内训</h3>
-                                        <p>管理类及技术类, 包括精益看板Lean Kanban, SAFe, XP, ATDD, 敏捷Scrum，Scaling Agile, 能用流利普通话或者纯正美式英语交付</p>
+                                        <p>管理类及技术类, 包括精益看板Lean Kanban, LeSS. SAFe, XP, ATDD, 敏捷Scrum，Scaling Agile, 能用流利普通话或者纯正美式英语交付</p>
                                         </a>
                                     </div> <!-- service info -->
                                 </div> <!-- col-sm-6 -->
@@ -246,8 +246,8 @@
                                 <div class="about-info-2">
                                     <a href="/tools">
                                     <i class="flaticon-technology"></i>
-                                    <h3>任务板和看板</h3>
-                                    <p>可视化管理的常用工具</p>
+                                    <h3>敏捷精益雷达平衡轮</h3>
+                                    <p>敏捷精益导入程度测评工具</p>
                                     </a>
                                 </div> <!-- about info -->
                             </div> <!-- col-md-6 -->
@@ -256,7 +256,7 @@
                                 <div class="about-info-3">
                                     <a href="/resources/books">
                                     <i class="flaticon-person"></i>
-                                    <h3>推荐书籍</h3>
+                                    <h3>推荐阅读书籍</h3>
                                     <p>想成为一流敏捷教练？这里的书你看过多少？我们的教练顾问团队极力推荐</p>
                                     </a>
                                 </div> <!-- about info -->
@@ -265,6 +265,7 @@
 
                         <div class="col-xs-12 col-sm-6 col-md-6">
                             <div class="about-img-slide">
+                                <h3>我们翻译的书籍</h3>
                                 <div class="slider-image">
                                     <a href="/resources/translated"><img src="<?php bloginfo('template_url'); ?>/img/books.jpg" class="img-responsive"></a>
                                 </div> <!-- slider image -->

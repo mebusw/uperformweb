@@ -48,6 +48,8 @@
                                         <p><a target="_blank" class="partner1" href="http://www.scrumalliance.org"><img src="https://www.scrumalliance.org/assets/img/global/logo.png"></a></p>
                                         <p><a target="_blank" class="partner2" href="http://www.agilealliance.org"><img src="https://www.agilealliance.org/wp-content/themes/agilealliance/assets/images/agile-alliance-logo.png"></a></p>
                                         <p><a target="_blank" class="partner3" href="https://icagile.com/"><img src="https://icagile.com/Portals/0/ICA-logo-114px.png?ver=2016-07-15-180038-530"></a></p>
+                                        <p><a target="_blank" class="partner3" href="https://less.works/"><img src="https://less.works/graphics/clp.png"></a></p>
+                                        <p><a target="_blank" class="partner3" href="https://less.works/"><img src="https://management30.com/"></a></p>
                                         <img src="/wp-content/themes/uperform/images/SCR20146-Seals-Final-CST.png" width="80" height="80"><img src="/wp-content/themes/uperform/images/SCR20146-Seals-Final-CTC.png" width="80" height="80">
                                     </div> <!-- popular-post -->
                                 </div> <!-- footer-post -->
