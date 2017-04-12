@@ -94,10 +94,10 @@
 
                                 <div class="col-sm-6 col-md-3">
                                     <div class="service-info-4 hvr-glow">
-                                        <a href="/courses/class/sh-2017-0519" style="text-decoration: none; color: #333;">
+                                        <a href="courses/class/bj-2017-0512" style="text-decoration: none; color: #333;">
                                         <i class="pe-7s-light"></i>
                                         <h3>敏捷教练培养</h3>
-                                        <p>帮助敏捷实践者和ScrumMaster朝着专家级CSP认证继续深造，国内CSP仅有百位。</p>
+                                        <p>辅导敏捷实践者和ScrumMaster朝着专家级CSP认证及更高CTC层次继续深造，国内CSP仅有百位。请联系导师建立辅导关系。</p>
                                         </a>
                                     </div> <!-- service info -->
                                 </div> <!-- col-sm-6 -->
