@@ -30,7 +30,7 @@
 							<span class="left-section" style="font-size: ">找不到你的城市？请致电<a href="tel:021-34753688">021-34753688</a></span>
 						</div>
 					</div>
-					<div class="course-list class-list">
+					<div class="course-list class-list container">
 						<h2>敏捷课程表</h2>
 						<?php
 						$category_description = category_description();

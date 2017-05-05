@@ -33,7 +33,7 @@
                             <div class="header-bottom-info-1">
                                 <h3>国内唯一敏捷教练学院</h3>
                                 <i class="fa fa-codepen"></i>
-                                <p>优普丰机构是大中华地区敏捷Scrum培训教练咨询领航者，最具资历的Scrum敏捷教练顾问团队，拥有3位CST和国内唯一CTC持有者担任教练培养导师，平均IT行业经验超过20年。<a class="btn btn-info" href="/faq#q2">Scrum认证体系说明</a></p>
+                                <p>优普丰机构是大中华地区敏捷Scrum培训教练咨询领航者，最具资历的Scrum敏捷教练顾问团队，拥有3位CST和国内唯一CTC持有者担任 <a href="/courses/敏捷教练辅导项目">教练培养导师</a> ，平均IT行业经验超过20年。<a class="btn btn-info" href="/faq#q2">Scrum认证体系说明</a></p>
                             </div> <!-- header bottom info -->
                         </div> <!-- col-md-5 -->
 
@@ -94,7 +94,7 @@
 
                                 <div class="col-sm-6 col-md-3">
                                     <div class="service-info-4 hvr-glow">
-                                        <a href="courses/class/bj-2017-0512" style="text-decoration: none; color: #333;">
+                                        <a href="/courses/敏捷教练辅导项目" style="text-decoration: none; color: #333;">
                                         <i class="pe-7s-light"></i>
                                         <h3>敏捷教练培养</h3>
                                         <p>辅导敏捷实践者和ScrumMaster朝着专家级CSP认证及更高CTC层次继续深造，国内CSP仅有百位。请联系导师建立辅导关系。</p>
