@@ -104,13 +104,12 @@
                 $('#preloader').fadeOut('slow',function(){$(this).remove();});
             });
 
-            });
+        });
 
 
 
         // Sponsor Company Logo
         $(".client-company").owlCarousel({
-                
                 items: 3,
                 itemsDesktop:  [1199,3],
                 itemsDesktopSmall:  [979,2],
@@ -146,10 +145,24 @@
               });
         }());
 
-        });
+        // Nav item activation
+        $('.nav > li').removeClass('active');
+        var navItemIdx = 1;
+        switch($('.page-title').text()) {
+            case '培训课程': navItemIdx = 2; break;
+            case '教练咨询服务': navItemIdx = 3; break;
+            case '顾问教练团队': navItemIdx = 4; break;
+            case '博客': navItemIdx = 5; break;
+            case '资源': navItemIdx = 6; break;
+            case '主要客户': navItemIdx = 7; break;
+            case '关于我们': navItemIdx = 8; break;
+        }
+        $('.nav > li:nth-child(' + navItemIdx + ')').addClass('active');
 
 
+    });
     </script>
+
     <script type="text/javascript">
         // Hide auto-appended CNZZ icon
         setTimeout(function () {
