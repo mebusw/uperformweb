@@ -15,8 +15,8 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-    <meta name="description" content="Scrum中文培训, CSM培训，Scrum敏捷开发培训, Scrum认证, 中文敏捷认证, 敏捷项目管理培训, 敏捷教练, 敏捷咨询等服务。Scrum China Agile 优普丰是中国敏捷开发培训咨询教练领导品牌！ CSM CSP CSD CST CTC">
-    <meta name="keywords" content="Scrum中文培训, CSM培训，Scrum敏捷开发培训, Scrum认证,Scrum Master,敏捷项目管理培训,敏捷教练,敏捷咨询 Agile Coaching DevOps Coaching SAFE LESS CSM CSP CSD CST CTC 敏捷估算">
+    <meta name="description" content="Scrum认证, Scrum中文培训, CSM培训，Scrum敏捷开发培训, 中文敏捷认证, 敏捷项目管理培训, 敏捷教练, 敏捷咨询。Scrum China Agile 优普丰是中国敏捷开发培训咨询教练领导品牌！">
+    <meta name="keywords" content="Scrum认证, Scrum中文培训, CSM培训，Scrum敏捷开发培训, Scrum Master,敏捷项目管理培训,敏捷教练,敏捷咨询 敏捷估算">
     
     <title><?php
     global $page, $paged;
