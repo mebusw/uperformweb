@@ -16,7 +16,7 @@
 				  <ul xmlns:v="http://rdf.data-vocabulary.org/#">
 				    <li typeof="v:Breadcrumb"><a title="Level1" href="/" rel="v:url" property="v:title">优普丰敏捷学院</a></li>
 				    <li typeof="v:Breadcrumb"><a title="Level2" href="/category/courses" rel="v:url"property="v:title">培训课程</a></li>
-				    <li typeof="v:Breadcrumb"><a class="currentLevel" title="Current Level" href="/category/courses/activities" rel="v:url" property="v:title">认证公开班</a></li>
+				    <li typeof="v:Breadcrumb"><a class="currentLevel" title="Current Level" href="/category/courses/activities" rel="v:url" property="v:title">敏捷社区活动</a></li>
 				  </ul>
 				</div>
 
@@ -37,7 +37,7 @@
 			<div class="inner-content">
 				<div class="left-section left-col activities">
 					<div class="course-list">
-						<h2>近期行业活动：</h2>
+						<h2>近期敏捷社区活动：</h2>
 						<?php if (have_posts()) : ?>
   <?php $now_query = new WP_Query('category_name=event-now');
   while ($now_query->have_posts()) : $now_query->the_post();
