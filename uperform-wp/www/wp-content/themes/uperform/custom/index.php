@@ -94,7 +94,7 @@
 
                                 <div class="col-sm-6 col-md-3">
                                     <div class="service-info-4 hvr-glow">
-                                        <a href="/courses/敏捷教练辅导项目" style="text-decoration: none; color: #333;">
+                                        <a href="/courses/agile-coaching-mentoring" style="text-decoration: none; color: #333;">
                                         <i class="pe-7s-light"></i>
                                         <h3>敏捷教练培养</h3>
                                         <p>辅导敏捷实践者和ScrumMaster朝着专家级CSP认证及更高CTC层次继续深造，国内CSP仅有百位。请联系导师建立辅导关系。</p>
