@@ -5,7 +5,14 @@
 				<h1 class="page-title"><?php
 					printf( __( '%s', 'uperform' ), '<span>' . single_cat_title( '', false ) . '</span>' );
 				?></h1>
-				
+				<?php
+				if ( function_exists('yoast_breadcrumb') ) {
+				yoast_breadcrumb('
+				<p id="breadcrumbs">','</p>
+				');
+				}
+				?>
+								
 				<div class="" style="color:grey;">
 				  <ul xmlns:v="http://rdf.data-vocabulary.org/#">
 				    <li typeof="v:Breadcrumb"><a title="Level1" href="/" rel="v:url" property="v:title">优普丰敏捷学院</a></li>
