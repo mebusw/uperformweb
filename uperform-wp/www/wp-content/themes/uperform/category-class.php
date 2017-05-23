@@ -13,14 +13,6 @@
 				}
 				?>
 								
-				<div class="" style="color:grey;">
-				  <ul xmlns:v="http://rdf.data-vocabulary.org/#">
-				    <li typeof="v:Breadcrumb"><a title="Level1" href="/" rel="v:url" property="v:title">优普丰敏捷学院</a></li>
-				    <li typeof="v:Breadcrumb"><a title="Level2" href="/category/courses" rel="v:url"property="v:title">培训课程</a></li>
-				    <li typeof="v:Breadcrumb"><a class="currentLevel" title="Current Level" href="/category/courses/class" rel="v:url" property="v:title">认证公开班</a></li>
-				  </ul>
-				</div>
-
 				<?php /* How to display in the courses category. */ ?>
 				<?php if ( is_category( _x('courses', 'courses category slug', 'uperform') ) ) : ?>
 				

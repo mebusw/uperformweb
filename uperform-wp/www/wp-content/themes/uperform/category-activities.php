@@ -12,13 +12,6 @@
 				');
 				}
 				?>
-				<div class="" style="color:grey;">
-				  <ul xmlns:v="http://rdf.data-vocabulary.org/#">
-				    <li typeof="v:Breadcrumb"><a title="Level1" href="/" rel="v:url" property="v:title">优普丰敏捷学院</a></li>
-				    <li typeof="v:Breadcrumb"><a title="Level2" href="/category/courses" rel="v:url"property="v:title">培训课程</a></li>
-				    <li typeof="v:Breadcrumb"><a class="currentLevel" title="Current Level" href="/category/courses/activities" rel="v:url" property="v:title">敏捷社区活动</a></li>
-				  </ul>
-				</div>
 
 				<?php /* How to display in the courses category. */ ?>
 				<?php if ( is_category( _x('courses', 'courses category slug', 'uperform') ) ) : ?>
@@ -29,63 +22,65 @@
 				<?php endif; // This was the if statement that broke the #top into two parts based on categories. ?>
 			</div><!-- .wrapper -->
 		</div><!-- .slider -->
-		<div id="content" class="row">
-			<div class="sub-nav">
-				<?php wp_nav_menu( array( 'container_class' => 'sub-menu', 'theme_location' => 'secondary_courses' ) ); ?><!-- .sub_nav -->
-				<div class="clear"></div>
+		<div id="content" class="container">
+			<div id="content" class="row">
+				<div class="sub-nav">
+					<?php wp_nav_menu( array( 'container_class' => 'sub-menu', 'theme_location' => 'secondary_courses' ) ); ?><!-- .sub_nav -->
+					<div class="clear"></div>
+				</div>
+				<div class="inner-content">
+					<div class="left-section left-col activities">
+						<div class="course-list">
+							<h2>近期敏捷社区活动：</h2>
+							<?php if (have_posts()) : ?>
+	  <?php $now_query = new WP_Query('category_name=event-now');
+	  while ($now_query->have_posts()) : $now_query->the_post();
+	  $do_not_duplicate = $post->ID; ?>
+	    <!-- Do stuff... -->
+					<ul>
+						<li <?php post_class() ?> id="post-<?php the_ID(); ?>">
+							<div>
+								<h3 class="course-title width-auto"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
+								<div class="clear"></div>
+							</div>
+						</li>
+					</ul>	
+	  <?php endwhile; ?>
+		<?php else : ?>
+
+			<h2 class="center">Not Found</h2>
+			<p class="center">Sorry, but you are looking for something that isn't here.</p>
+			<?php get_search_form(); ?>
+
+		<?php endif; ?>
+				</div>
+						<div class="course-list">
+							<h2>历史活动信息：</h2>
+							<?php if (have_posts()) : ?>
+	  <?php $expired_query = new WP_Query('category_name=event-expired');
+	  while ($expired_query->have_posts()) : $expired_query->the_post();
+	  $do_not_duplicate = $post->ID; ?>
+	    <!-- Do stuff... -->
+					<ul>
+						<li <?php post_class() ?> id="post-<?php the_ID(); ?>">
+							<div>
+								<h3 class="course-title width-auto"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
+								</h3>
+								<div class="clear"></div>
+							</div>
+						</li>
+					</ul>	
+	  <?php endwhile; ?>
+		<?php else : ?>
+
+			<h2 class="center">Not Found</h2>
+			<p class="center">Sorry, but you are looking for something that isn't here.</p>
+			<?php get_search_form(); ?>
+
+		<?php endif; ?>
+				</div>
 			</div>
-			<div class="inner-content">
-				<div class="left-section left-col activities">
-					<div class="course-list">
-						<h2>近期敏捷社区活动：</h2>
-						<?php if (have_posts()) : ?>
-  <?php $now_query = new WP_Query('category_name=event-now');
-  while ($now_query->have_posts()) : $now_query->the_post();
-  $do_not_duplicate = $post->ID; ?>
-    <!-- Do stuff... -->
-				<ul>
-					<li <?php post_class() ?> id="post-<?php the_ID(); ?>">
-						<div>
-							<h3 class="course-title width-auto"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h3>
-							<div class="clear"></div>
-						</div>
-					</li>
-				</ul>	
-  <?php endwhile; ?>
-	<?php else : ?>
-
-		<h2 class="center">Not Found</h2>
-		<p class="center">Sorry, but you are looking for something that isn't here.</p>
-		<?php get_search_form(); ?>
-
-	<?php endif; ?>
-			</div>
-					<div class="course-list">
-						<h2>历史活动信息：</h2>
-						<?php if (have_posts()) : ?>
-  <?php $expired_query = new WP_Query('category_name=event-expired');
-  while ($expired_query->have_posts()) : $expired_query->the_post();
-  $do_not_duplicate = $post->ID; ?>
-    <!-- Do stuff... -->
-				<ul>
-					<li <?php post_class() ?> id="post-<?php the_ID(); ?>">
-						<div>
-							<h3 class="course-title width-auto"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a>
-							<div class="clear"></div>
-						</div>
-					</li>
-				</ul>	
-  <?php endwhile; ?>
-	<?php else : ?>
-
-		<h2 class="center">Not Found</h2>
-		<p class="center">Sorry, but you are looking for something that isn't here.</p>
-		<?php get_search_form(); ?>
-
-	<?php endif; ?>
-			</div>
-					</div>
-				<div class="right-col right-section course-list">
+			<div class="right-col right-section course-list">
 				<h2>近期敏捷课程公开班</h2>
 				<?php if (have_posts()) : ?>
   <?php $special_query = new WP_Query('category_name=special&showposts=4');
@@ -121,8 +116,5 @@ the_content("详细介绍");
 					<div class="clear"></div>
 				</div>
 			</div>
-				<div class="clear"></div>
-			</div>
-		</div><!-- #content -->
-			
+		</div>
 <?php get_footer(); ?>
