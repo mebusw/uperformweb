@@ -13,6 +13,9 @@
                 }
                 ?>
                 
+                <div style="color: grey;">
+                    <p id="breadcrumbs"><span><span><a href="http://www.uperform.cn/" rel="v:url">Home</a> » <span class="breadcrumb_last">培训课程</span></span></span></p>
+                </div>
                 <?php /* How to display in the courses category. */ ?>
                 <?php if ( is_category( _x('courses', 'courses category slug', 'uperform') ) ) : ?>
                 
