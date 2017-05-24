@@ -12,6 +12,8 @@
 				');
 				}
 				?>
+				
+				<p id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="http://www.uperform.cn/" rel="v:url" property="v:title">Home</a> » <span rel="v:child" typeof="v:Breadcrumb"><a href="http://www.uperform.cn/category/courses" rel="v:url" property="v:title">培训课程</a> » <span class="breadcrumb_last">公开班时间表</span></span></span></span></p>
 								
 				<?php /* How to display in the courses category. */ ?>
 				<?php if ( is_category( _x('courses', 'courses category slug', 'uperform') ) ) : ?>
@@ -22,6 +24,7 @@
 				<?php endif; // This was the if statement that broke the #top into two parts based on categories. ?>
 			</div><!-- .wrapper -->
 		</div><!-- .slider -->
+
 		<div id="content" class="row">
 			<div class="sub-nav">
 				<?php wp_nav_menu( array( 'container_class' => 'sub-menu', 'theme_location' => 'secondary_courses' ) ); ?><!-- .sub_nav -->
