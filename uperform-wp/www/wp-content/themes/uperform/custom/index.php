@@ -14,7 +14,7 @@
                                     <a class="btn-buy-now hvr-sweep-to-top" href="index.html#">Buy Now</a>
                                     <a class="header-read-btn hvr-sweep-to-top" href="index.html#">Read More</a>
                                 </div> 
- -->                            <img src="<?php bloginfo('template_url'); ?>/img/carousel1.jpg" class="img-responsive" width="100%">   
+ -->                            <img src="<?php bloginfo('template_url'); ?>/img/carousel0.jpg" class="img-responsive" style="margin: 0 auto;max-height: 400px;">   
                             </div> 
                         </div>  <!-- col-sm-12 -->
                     </div> <!-- row -->
