@@ -14,7 +14,7 @@
                 ?>
                 
                 <div style="color: grey;">
-                    <p id="breadcrumbs"><span><span><a href="http://www.uperform.cn/" rel="v:url">Home</a> » <span class="breadcrumb_last">培训课程</span></span></span></p>
+                    <p id="breadcrumbs"><span><span><a href="http://www.uperform.cn/" rel="v:url">Home</a> » <span class="breadcrumb_last">敏捷培训Scrum认证课程</span></span></span></p>
                 </div>
                 <?php /* How to display in the courses category. */ ?>
                 <?php if ( is_category( _x('courses', 'courses category slug', 'uperform') ) ) : ?>
@@ -32,8 +32,8 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <h2 class="sub-nav-title"><a class="more-btn" href="/category/courses/class">公开班时间表</a></h2>
-                    <p> 我们自2007年开始在中国大陆地区专注于提供Scrum和敏捷方面的公开课，包括Scrum联盟认证和非认证课程。深受广大学员和500强企业的认可和关注。目前我们定期在北京、上海及各主要城市提供CSM、CSPO、CSD、TDD等核心应用课程，帮助培养敏捷团队服务式领导、创建伟大产品及项目的需求负责人、以及高绩效敏捷开发团队成员。
+                    <h2 class="sub-nav-title"><a class="more-btn" href="/category/courses/class">Scrum认证培训敏捷公开班时间表</a></h2>
+                    <p> 定期在北京、上海、深圳等主要城市滚动提供CSM、CSPO、CSD、进阶教练等核心应用课程。我们自2007年开始在中国大陆地区专注于提供Scrum和敏捷方面的公开课，包括Scrum联盟认证和非认证课程。深受广大学员和500强企业的认可和关注。帮助培养敏捷团队服务式领导、创建伟大产品及项目的需求负责人、以及高绩效敏捷开发团队成员。
                     </p>
                     <div>
                         <a class="btn btn-warning btn-lg" href="https://jinshuju.net/f/RBPJVI"  target="_blank">我要报名公开班</a>

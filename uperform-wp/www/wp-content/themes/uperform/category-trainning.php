@@ -13,7 +13,7 @@
 				}
 				?>
 				
-				<p id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="http://www.uperform.cn/" rel="v:url" property="v:title">Home</a> » <span rel="v:child" typeof="v:Breadcrumb"><a href="http://www.uperform.cn/category/courses" rel="v:url" property="v:title">培训课程</a> » <span class="breadcrumb_last">企业内训</span></span></span></span></p>
+				<p id="breadcrumbs"><span xmlns:v="http://rdf.data-vocabulary.org/#"><span typeof="v:Breadcrumb"><a href="http://www.uperform.cn/" rel="v:url" property="v:title">Home</a> » <span rel="v:child" typeof="v:Breadcrumb"><a href="http://www.uperform.cn/category/courses" rel="v:url" property="v:title">敏捷培训课程</a> » <span class="breadcrumb_last">企业敏捷内训</span></span></span></span></p>
 
 				<?php /* How to display in the courses category. */ ?>
 				<?php if ( is_category( _x('courses', 'courses category slug', 'uperform') ) ) : ?>
