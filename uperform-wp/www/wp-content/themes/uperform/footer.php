@@ -8,7 +8,7 @@
                                 <div class="footer-about">
                                     <h3>我们是优普丰</h3>
                                     <div class="footer-about-info content-area">
-                                        <p class=""><i class="fa fa-envelope-o"></i><a href="mailto:service@scrumchina.com">Service@ScrumChina.com</a><br/>
+                                        <p class=""><i class="fa fa-envelope-o"></i>邮箱:<a href="mailto:service@scrumchina.com">Service@ScrumChina.com</a><br/>
                                         <p class=""><i class="fa fa-globe"></i><a href="https://jinshuju.net/f/25k3bo" target="_blank">内训及教练在线报名</a>
                                         <br/><i class="fa fa-globe"></i><a href="https://jinshuju.net/f/RBPJVI" target="_blank">公开课在线报名</a></p>
                                         <p class=""><i class="fa fa-user"></i>上海办公室: <br/>上海市闵行区申长路818号虹桥天地1号楼7楼裸心社 <br/>

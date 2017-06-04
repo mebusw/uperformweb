@@ -41,7 +41,7 @@
                             <div class="header-bottom-info-2">
                                 <h3>深耕中国十年</h3>
                                 <i class="fa fa-briefcase"></i>
-                                <p>优普丰机构创立于2007年，中国地区首家Scrum Alliance-REP注册教育提供商及国际敏捷联盟企业会员，最大的中文敏捷培训CSM/CSPO/CSD认证机构。<a class="btn btn-info" href="/clients">超过500家客户清单</a></p>
+                                <p>优普丰机构创立于2007年，中国地区首家Scrum Alliance-REP注册教育提供商及国际敏捷联盟企业会员，最大的中文敏捷培训CSM认证/CSPO认证/CSD认证机构。<a class="btn btn-info" href="/clients">超过500家客户清单</a></p>
                             </div> <!-- header bottom info-2 -->
                         </div> <!-- col-md-5 -->
                     </div> <!-- row -->
@@ -67,7 +67,7 @@
                                         <a href="/category/courses/class" style="text-decoration: none; color: #333;">
                                         <i class="pe-7s-diamond"></i>
                                         <h3>Scrum认证</h3>
-                                        <p>美国Scrum Alliance颁发，全球70%的敏捷组织都在使用Scrum方法，数百万人的选择。深刻理解传统与敏捷环境的异同，海内外丰富背景，把握文化差异</p>
+                                        <p>美国Scrum Alliance颁发CSM认证、CSPO认证等，全球70%的敏捷组织都在使用Scrum方法，数百万人的选择。深刻理解传统与敏捷环境的异同，海内外丰富背景，把握文化差异</p>
                                         </a>
                                     </div> <!-- service info -->
                                 </div> <!-- col-sm-6 -->
@@ -246,7 +246,7 @@
                                 <div class="about-info-2">
                                     <a href="/tools">
                                     <i class="flaticon-technology"></i>
-                                    <h3>敏捷精益雷达平衡轮</h3>
+                                    <h3>敏捷精益平衡轮</h3>
                                     <p>敏捷精益导入程度测评工具</p>
                                     </a>
                                 </div> <!-- about info -->
@@ -265,7 +265,7 @@
 
                         <div class="col-xs-12 col-sm-6 col-md-6">
                             <div class="about-img-slide">
-                                <h3>我们翻译的书籍</h3>
+                                <h3>我们翻译的敏捷书籍</h3>
                                 <div class="slider-image">
                                     <a href="/resources/translated"><img src="<?php bloginfo('template_url'); ?>/img/books.jpg" class="img-responsive"></a>
                                 </div> <!-- slider image -->
